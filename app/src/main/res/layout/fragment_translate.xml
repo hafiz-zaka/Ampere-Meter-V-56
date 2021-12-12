@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="gluapps.Ampere.meter.Activity.TranslateFragment">
+    <include layout="@layout/tool_bar"
+        android:id="@+id/tool_bar"
+        ></include>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="If you want to translate the app in your local language or  find any error in language translation"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/email_bt"
+        android:text="I WOULD LIKE TO TRANSLATE IT"/>
+<ListView
+    android:layout_width="match_parent"
+    android:id="@+id/translate_list_view"
+    android:layout_height="wrap_content"></ListView>
+</LinearLayout>

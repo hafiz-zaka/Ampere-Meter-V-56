@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+    <string name="app_name">Amperemeßinstrument</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_pro">Kaufen Pro Version</string>
+    <string name="action_Rate">Bewerten Sie uns</string>
+    <string name="action_share">Aktie</string>
+
+    <string name="level_text_view">Ebene</string>
+    <string name="remaning_text_view">Verbleibend</string>
+    <string name="capacity_text_view">Kapazität</string>
+    <string name="technonlogy_text_view">Technologie</string>
+    <string name="healt_text_view">Gesundheit</string>
+    <string name="temperature_text_view">Temperatur</string>
+    <string name="voltage_text_view">Voltage</string>
+    <string name="charger_text_view">Ladegerät</string>
+    <string name="model_text_view">Modell</string>
+    <string name="status_text_view">Status</string>
+    <string name="android_version_text_view">Android version</string>
+    <string name="build_id_text_view">Build ID</string>
+    <string name="dialog_estimate_text_view">Geschätzte Lade</string>
+    <string name="dialog_time_text_view">Zeit</string>
+    <string name="setting_message1_text_view">Öffnen Sie die Verbindung
+</string>
+    <string name="setting_message2_text_view">Die Anwendung startet automatisch, wenn Sie das Ladegerät anschließen</string>
+
+    <string name="message_text_view">Bitte drücken Sie auf dem angeschlossenen Taste für weitere Informationen</string>
+    <string name="chip_message1_text_view">* Leider Ihr Telefon haben keinen Chip, der Strom misst. so kann jede App noch nicht im Telefon durch programmatisch Stromfluss messen, die nicht chip.So in Abwesenheit von Chip hat, schätzen wir auf der Basis von USB und AC-Ladegerät Strom, informieren nur ungefähr in Höhe von Strom durch Kabel fließt</string>
+    <string name="chip_message2_text_view">* Außerdem berechnen es Ladezeit zu erwarten. Diese Funktion ist zusätzlich und es ist nur in Amperemeter app.it eingebaut wird hinzugefügt jene Kunden, deren Telefon nicht mit Chip zu erleichtern, damit sie nicht etwa kann die Ladezeit zu erwarten</string>
+    <string name="chip_message3_text_view">* Wenn Sie mithilfe dieser App über irgendwelche Schwierigkeiten kommen informieren Sie uns bitte auf über E-Mail
+</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">OK</string>
+
+
+    <!--Main Activity-->
+    <string name="connectd">In Verbindung gebracht
+</string>
+    <string name="not_charging">Lädt nicht</string>
+    <string name="defult_plug_type">Unbekannt</string>
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">Unbekannt</string>
+    <string name="dead_health_String">Tot</string>
+    <string name="good_health_String">Gut</string>
+    <string name="over_heat_health_String">Über Wärme</string>
+    <string name="over_voltage_health_String">Überspannung</string>
+    <string name="faliur_health_String">Fehler</string>
+    <string name="not_charging_status">Lädt nicht</string>
+    <string name="full_status">
+Voll</string>
+    <string name="discharge_status">Entladezeit
+</string>
+
+    <string name="defult_status">Unbekannt</string>
+    <string name="charging_status">Lade</string>
+
+
+
+    <string name="hour">Stunden und
+ </string>
+    <string name="mint"> Protokoll</string>
+
+    <string name="setting_language_main">Sprache</string>
+    <string name="setting_language_messae">Ignorieren Gerätesprache und verwenden andere</string>
+    <string name="more_apps">Mehr Apps</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+    <string name="temperature_heading_setting">Temperatur in</string>
+    <string name="temperature_detaile_setting">Die Einheit der Temperatur wählt entweder Celsius (C) oder Fahrenheit (F)</string>
+    <string name="charging_time_heading_setting">Charing Zeit Bildschirm</string>
+    <string name="charging_ime_detaile_setting">Schätzung der Ladezeit anzeigen</string>
+    <string name="Alert_bt_setting">Alert-Einstellung</string>
+    <string name="Alert_custom_tv_setting">Anpassen der Alarmeinstellung</string>
+    <string name="translater_heading_setting">Translators</string>
+
+    <string name="translater_detaile_setting">Die Leute, die dazu beigetragen haben, die App zu übersetzen.</string>
+    <string name="alarm_full_battery_heading_setting">Warnung anzeigen, wenn der Akku voll ist</string>
+    <string name="alarm_low_battery_heading_setting">Warnung anzeigen, wenn die Batterie schwach ist</string>
+    <string name="alarm_high_temp_heading_setting">Warnung anzeigen, wenn die Batterietemperatur hoch ist</string>
+    <string name="Alert_custom_full_battery_tv_setting">Batterie voll</string>
+    <string name="Alert_custom_low_battery_tv_setting">Batterie schwach</string>
+    <string name="Alert_custom__high_custom_tv_setting">Batterietemperatur</string>
+    <string name="battery_level_for_notification">Batterie Level</string>
+    <string name="Alert_custom__full_level">Batterie voll</string>
+    <string name="Alert_custom__low_level">Batterie schwach</string>
+    <string name="Alert_custom__high_temp">Batterie heiß</string>
+    <string name="dissconneced">Unverbunden</string>
+    <string name="notification_heading_setting">Ausblenden, wenn nicht aufgeladen</string>
+    <string name="notification_detaile_setting">Verwenden Sie die "minimale" Prioritätsnachricht, wenn sie nicht geladen wird</string>
+    <string name="permanent_notification_heading_setting">Benachrichtigung</string>
+    <string name="permanent_notification_detaile_setting">Aktivieren / Deaktivieren der permanenten Meldung</string>
+    <string name="toast_hide_notificaion_message">Die Meldung wird auf dem Ladevorgang angezeigt</string>
+    <!-- new line-->
+    <string name="remove_ads">Anzeigen entfernen</string>
+    <string name="action_alert_settings">Alert-Einstellungen</string>
+    <string name="flowingcurrent_text_view">Strömungsstrom</string>
+
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "380992947787",
+    "firebase_url": "https://zadeveloper-9c17a.firebaseio.com",
+    "project_id": "zadeveloper-9c17a",
+    "storage_bucket": "zadeveloper-9c17a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380992947787:android:d44ca5036285e912",
+        "android_client_info": {
+          "package_name": "zaka.com.amperemeter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380992947787-rjqvdfjjt4ah8sip88kbjvsu663p7o2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_SoKdNHktyksN-g9tXEMRo3Vi4dl9P1I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

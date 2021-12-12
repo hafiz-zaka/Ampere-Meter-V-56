@@ -1,0 +1,77 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 31
+    defaultConfig {
+        applicationId "zaka.com.amperemete"
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 56
+        versionName '2.3.6'
+        multiDexEnabled true
+
+    }
+    buildTypes {
+        release {
+            resValue "string", "admobe_app_id", "ca-app-pub-6151128815912996~5642902465"
+            resValue "string", "admobe_native_back", "ca-app-pub-6151128815912996/8752174754"
+            resValue "string", "admobe_banner_alert_setting", "ca-app-pub-6151128815912996/7552227433"
+
+            resValue "string", "admobe_banner_setting", "ca-app-pub-6151128815912996/7743799129"
+            resValue "string", "admobe_native_main", "ca-app-pub-6151128815912996/9654192887"
+            resValue "string", "admobe_intertesial_setting", "ca-app-pub-6151128815912996/5872954887"
+            resValue "string", "admobe_intertesial_alert_setting", "ca-app-pub-6151128815912996/6392732580"
+
+            resValue "string", "admobe_interestitial_splash", "ca-app-pub-6151128815912996/4187697495"
+            resValue "string", "admobe_app_open", "ca-app-pub-6151128815912996/1995194712"
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'),
+                    'proguard-rules.pro'
+        }
+        debug {
+            resValue "string", "admobe_app_id", "ca-app-pub-3940256099942544~3347511713"
+            resValue "string", "admobe_native_back", "ca-app-pub-3940256099942544/2247696110"
+            resValue "string", "admobe_banner_alert_setting", "ca-app-pub-3940256099942544/6300978111"
+
+            resValue "string", "admobe_banner_setting", "ca-app-pub-3940256099942544/6300978111"
+            resValue "string", "admobe_native_main", "ca-app-pub-3940256099942544/2247696110"
+            resValue "string", "admobe_intertesial_setting", "ca-app-pub-3940256099942544/1033173712"
+            resValue "string", "admobe_intertesial_alert_setting", "ca-app-pub-3940256099942544/1033173712"
+
+            resValue "string", "admobe_interestitial_splash", "ca-app-pub-3940256099942544/1033173712"
+            resValue "string", "admobe_app_open", "ca-app-pub-3940256099942544/3419835294"
+
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildToolsVersion '30.0.3'
+}
+
+dependencies {
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.android.gms:play-services-ads:20.5.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'org.jetbrains:annotations:15.0'
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.browser:browser:1.4.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'com.android.billingclient:billing:4.0.0'
+
+    implementation 'com.appbrain:appbrain-sdk:+'
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+    implementation 'com.google.ads.mediation:facebook:6.8.0.0'
+}
+
+

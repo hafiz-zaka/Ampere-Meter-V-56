@@ -1,0 +1,131 @@
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+
+    <string name="app_name">Ampere Meter</string>
+    <string name="action_settings">instellingen</string>
+    <string name="action_pro">Koop Pro versie</string>
+    <string name="action_Rate">
+Beoordeel ons</string>
+    <string name="action_share">Delen</string>
+
+    <string name="level_text_view">Niveau</string>
+    <string name="remaning_text_view">resterende</string>
+    <string name="capacity_text_view">capaciteit</string>
+    <string name="technonlogy_text_view">Technologie</string>
+    <string name="healt_text_view">Gezondheid</string>
+    <string name="temperature_text_view">Temperatuur</string>
+    <string name="voltage_text_view">Spanning</string>
+    <string name="charger_text_view">Charger</string>
+    <string name="model_text_view">Model</string>
+    <string name="status_text_view">toestand</string>
+    <string name="android_version_text_view">Android-versie</string>
+    <string name="build_id_text_view">Build ID</string>
+    <string name="dialog_estimate_text_view">geschatte opladen</string>
+    <string name="dialog_time_text_view">Tijd</string>
+    <string name="setting_message1_text_view">Open aan te sluiten</string>
+    <string name="setting_message2_text_view">De applicatie wordt automatisch gestart wanneer u de lader moet aansluiten</string>
+
+    <string name="message_text_view">Gelieve druk op de knop verbinding voor meer informatie</string>
+    <string name="chip_message1_text_view">*
+    </string>
+    <string name="chip_message2_text_view">* Bovendien berekenen verwacht dat oplaadtijd. Deze functie is extra en het is alleen opgenomen in ampère meter app.it wordt toegevoegd aan de cliënten van wie het telefoonnummer niet met chip, zodat ze kunnen niet over de te verwachten oplaadtijd vergemakkelijken
+</string>
+    <string name="chip_message3_text_view">* Als u over problemen met behulp van deze app kunt u ons op via e-mail
+</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">ok</string>
+
+
+    <string name="connectd">Aangesloten</string>
+    <string name="not_charging">niet opladen</string>
+    <string name="defult_plug_type">Onbekend</string>
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">Onbekend</string>
+    <string name="dead_health_String">Dood</string>
+    <string name="good_health_String">Goed</string>
+    <string name="over_heat_health_String">oververhitting</string>
+    <string name="over_voltage_health_String">Over Voltage</string>
+    <string name="faliur_health_String">Mislukking</string>
+    <string name="not_charging_status">niet opladen</string>
+    <string name="full_status">vol</string>
+    <string name="discharge_status">ontladen</string>
+
+    <string name="defult_status">Onbekend</string>
+    <string name="charging_status">Opladen</string>
+
+
+    <string name="hour">uur en </string>
+    <string name="mint"> minuten</string>
+
+    <string name="setting_language_main" >Taal</string>
+    <string name="setting_language_messae" >Negeer taal van het apparaat en het gebruik van andere</string>
+    <string name="more_apps">Meer apps</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+    <string name="temperature_heading_setting">temperatuur in</string>
+    <string name="temperature_detaile_setting">De eenheid van temperatuur kiezen tussen graden Celsius (C) of Fahrenheit (F)</string>
+    <string name="charging_time_heading_setting">Charing tijd scherm</string>
+    <string name="charging_ime_detaile_setting">Toon schatten oplaadtijd scherm</string>
+    <string name="Alert_bt_setting">alert instellen</string>
+    <string name="Alert_custom_tv_setting">Pas Alert instellen</string>
+    <string name="translater_heading_setting">vertalers</string>
+    <string name="translater_detaile_setting">De mensen die hielp met het vertalen van de app.</string>
+    <string name="alarm_full_battery_heading_setting">Toon waarschuwing wanneer de batterij vol is</string>
+    <string name="alarm_low_battery_heading_setting">Toon waarschuwing wanneer de batterij bijna leeg is</string>
+    <string name="alarm_high_temp_heading_setting">Toon waarschuwing wanneer de batterij temperatuur hoog</string>
+    <string name="Alert_custom_full_battery_tv_setting">Batterij vol niveau</string>
+    <string name="Alert_custom_low_battery_tv_setting">Batterij lage niveau</string>
+    <string name="Alert_custom__high_custom_tv_setting">accutemperatuur</string>
+    <string name="battery_level_for_notification">batterijniveau</string>
+<string name="Alert_custom__full_level">batterij vol</string>
+<string name="Alert_custom__low_level">Batterij bijna leeg</string>
+
+    <string name="Alert_custom__high_temp">batterij hot</string>
+    <string name="dissconneced">niet verbonden</string>
+    <string name="notification_heading_setting">Verbergen als niet in rekening gebracht</string>
+    <string name="notification_detaile_setting">Gebruik de "minimale" prioritaire bericht als niet opladen</string>
+    <string name="permanent_notification_heading_setting">Kennisgeving</string>
+    <string name="permanent_notification_detaile_setting">Schakel aan / uit de permanente bericht</string>
+    <string name="toast_hide_notificaion_message">Melding wordt weergegeven op de lading</string>
+    <!-- new line-->
+    <string name="remove_ads">Verwijder advertenties</string>
+    <string name="action_alert_settings">alert instellingen</string>
+    <string name="flowingcurrent_text_view">vloeiende stroom</string>
+
+</resources>

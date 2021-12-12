@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "zaka.com.amperemeter",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 56,
+      "versionName": "2.3.6",
+      "outputFile": "app-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

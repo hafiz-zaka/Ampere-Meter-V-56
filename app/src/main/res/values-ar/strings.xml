@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+    <string name="app_name">أمبير متر</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="action_pro">شراء النسخة برو</string>
+    <string name="action_Rate">قيمنا</string>
+    <string name="action_share">شارك</string>
+
+    <string name="level_text_view">مستوى</string>
+    <string name="remaning_text_view">المتبقية</string>
+    <string name="capacity_text_view">سعة</string>
+    <string name="technonlogy_text_view">تكنولوجيا</string>
+    <string name="healt_text_view">الصحة</string>
+    <string name="temperature_text_view"> درجة الحرارة</string>
+    <string name="voltage_text_view">الجهد االكهربى</string>
+    <string name="charger_text_view">شاحن</string>
+    <string name="model_text_view">نموذج</string>
+    <string name="status_text_view">الحالة</string>
+    <string name="android_version_text_view">الروبوت الإصدار</string>
+    <string name="build_id_text_view">بناء معرف</string>
+    <string name="dialog_estimate_text_view">الشحن يقدر</string>
+    <string name="dialog_time_text_view">مرة</string>
+    <string name="setting_message1_text_view">مفتوحة للاتصال</string>
+    <string name="setting_message2_text_view">تطبيق يبدأ تلقائيا عند توصيل الشاحن</string>
+
+    <string name="message_text_view">يرجى الضغط على زر اتصال لمزيد من المعلومات</string>
+    <string name="chip_message1_text_view">*عذرا الهاتف لديك أي رقاقة الذي يقيس الحالية. لذلك أي برنامج لا يمكن قياس تدفق التيار من خلال برمجيا في هاتفك، والتي لا وجود chip.So في غياب رقاقة، فإننا نقدر الحالي على أساس USB وشاحن التيار المتردد الذي يبلغ مستوى فقط التقريبي للالتدفق الحالي من خلال كابل</string>
+    <string name="chip_message2_text_view">* وعلاوة على ذلك حساب المتوقع فرض الوقت. هذه الميزة الإضافية وإدراجه إلا في أمبير متر app.it يضاف إلى تسهيل هؤلاء العملاء الذين لا وجود رقاقة بحيث لا يمكن لعن المتوقع فرض الوقت الهاتف
+</string>
+    <string name="chip_message3_text_view">* إذا كنت تأتي عبر أي مشكلة باستخدام هذا التطبيق يرجى اعلامنا على عبر البريد الإلكتروني
+
+</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">حسنا</string>
+
+
+    <!--Main Activity-->
+    <string name="connectd">متصل</string>
+    <string name="not_charging">لا يشحن</string>
+    <string name="defult_plug_type">غير معروف</string>
+
+    <string name="defult_health_String">غير معروف</string>
+    <string name="dead_health_String">في ذمة الله تعالى</string>
+    <string name="good_health_String">جيد</string>
+    <string name="over_heat_health_String">على نار</string>
+    <string name="over_voltage_health_String">على مدى الجهد</string>
+    <string name="faliur_health_String">إخفاق</string>
+    <string name="not_charging_status">لا يشحن</string>
+    <string name="full_status">كامل</string>
+    <string name="discharge_status">التفريغ</string>
+
+    <string name="defult_status">غير معروف</string>
+    <string name="charging_status">شحن</string>
+
+
+
+    <string name="hour">ساعات و </string>
+    <string name="mint"> دقيقة</string>
+
+
+
+
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">يو اس بي</string>
+
+    <string name="setting_language_main">لغة</string>
+    <string name="setting_language_messae">  تجاهل لغة الجهاز واستخدام البعض</string>
+    <string name="more_apps">تطبيقات أكثر</string>
+
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+
+
+    <string name="temperature_heading_setting">درجة الحرارة في </string>
+    <string name="temperature_detaile_setting">   أشكال التعبير الثقافي التقليدي يونيتا من درجة حرارة الهواء اختيار إما tselsius (W) أور فهرنهايت (F) </string>
+    <string name="charging_time_heading_setting">شاشة الوقت شرينغ</string>
+    <string name="charging_ime_detaile_setting">مشاهدة تقدير شحن الشاشة مرة</string>
+    <string name="Alert_bt_setting">ضبط في حالة تأهب</string>
+    <string name="Alert_custom_tv_setting">تخصيص إعدادات تنبيه</string>
+    <string name="translater_heading_setting">مترجمين</string>
+    <string name="translater_detaile_setting">لشعب الذي ساعد في ترجمة التطبيق.</string>
+    <string name="alarm_full_battery_heading_setting">إظهار تنبيه عند امتلاء البطارية</string>
+    <string name="alarm_low_battery_heading_setting">إظهار تنبيه عند انخفاض مستوى شحن البطارية</string>
+    <string name="alarm_high_temp_heading_setting">إظهار تنبيه عند درجة حرارة البطارية مرتفعة</string>
+    <string name="Alert_custom_full_battery_tv_setting">مستوى البطارية كاملة</string>
+    <string name="Alert_custom_low_battery_tv_setting">مستوى البطارية كاملة</string>
+    <string name="Alert_custom__high_custom_tv_setting">بطارية مستوى منخفض</string>
+    <string name="battery_level_for_notification">مستوى البطارية</string>
+    <string name="Alert_custom__full_level">البطارية ممتلئة</string>
+    <string name="Alert_custom__low_level">البطارية ضعيفة</string>
+    <string name="Alert_custom__high_temp">البطارية ساخنة</string>
+    <string name="dissconneced">غير مرتبط</string>
+    <string name="notification_heading_setting">إخفاء إن لم يكن شحن</string>
+    <string name="notification_detaile_setting">استخدام "الحد الأدنى" أولوية إعلام إذا لم شحن</string>
+    <string name="permanent_notification_heading_setting">إعلام</string>
+    <string name="permanent_notification_detaile_setting">تشغيل / إيقاف الإخطار دائم</string>
+    <string name="toast_hide_notificaion_message">سوف تظهر الإعلام على شحن</string>
+    <!-- new line-->
+    <string name="remove_ads">ازالة الاعلانات</string>
+    <string name="action_alert_settings">إعدادات التنبيهات</string>
+    <string name="flowingcurrent_text_view">ازالة الاعلانات</string>
+
+</resources>

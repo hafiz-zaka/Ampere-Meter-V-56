@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+    <string name="app_name">एम्पीयर मीटर</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="action_pro">प्रो संस्करण को खरीदने</string>
+    <string name="action_Rate">हमें रेटिंग दें</string>
+    <string name="action_share">शेयर</string>
+
+    <string name="level_text_view">स्तर</string>
+    <string name="remaning_text_view">शेष</string>
+    <string name="capacity_text_view">क्षमता</string>
+    <string name="technonlogy_text_view">प्रौद्योगिकी</string>
+
+    <string name="charger_text_view">Charger</string>
+    <string name="status_text_view">स्थिति</string>
+    <string name="android_version_text_view">Android संस्करण</string>
+    <string name="build_id_text_view">बिल्ड आईडी</string>
+    <string name="healt_text_view">स्वास्थ्य</string>
+<string name="temperature_text_view"> तापमान</string>
+    <string name="voltage_text_view">वोल्टेज
+</string>
+    <string name="model_text_view">आदर्श</string>
+    <string name="dialog_estimate_text_view">अनुमानित चार्ज</string>
+    <string name="dialog_time_text_view">पहर</string>
+    <string name="setting_message1_text_view">कनेक्ट करने के लिए ओपन</string>
+    <string name="setting_message2_text_view">आवेदन स्वतः शुरू होता है जब आप चार्जर कनेक्ट</string>
+
+    <string name="message_text_view">अधिक जानकारी के लिए लॉग इन बटन पर प्रेस
+</string>
+    <string name="chip_message1_text_view">* क्षमा करें अपने फोन को कोई चिप जो वर्तमान उपाय है। इसलिए किसी भी एप्लिकेशन प्रोग्राम के जरिए अपने फोन है, जो चिप के अभाव में chip.So नहीं होने के माध्यम से वर्तमान के प्रवाह उपाय नहीं कर सकते, हम यूएसबी और एसी चार्जर की जिसके आधार पर वर्तमान केबल के माध्यम से बहने की केवल अनुमानित स्तर को सूचित पर मौजूदा अनुमान</string>
+    <string name="chip_message2_text_view">*इसके अलावा यह समय चार्ज की उम्मीद की गणना। इस सुविधा के लिए अतिरिक्त है और यह केवल एम्पीयर मीटर app.it में शामिल किया है उन ग्राहकों जिसका फोन चिप नहीं होने के बारे में तो वे कोई उम्मीद कर सकते हैं चार्ज समय की सुविधा के लिए जोड़ा जाता है
+</string>
+    <string name="chip_message3_text_view">* आप इस अनुप्रयोग का उपयोग करके किसी भी परेशानी के पार चलो तो कृपया हमें ईमेल पर पर सूचित
+</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">ठीक</string>
+
+
+    <!--Main Activity-->
+    <string name="connectd">कनेक्टेड</string>
+    <string name="not_charging">चार्ज नहीं हो रहा</string>
+    <string name="defult_plug_type">अनजान</string>
+    <string name="AC_plug_type">एसी</string>
+    <string name="Usb_plug_type">यु एस बी</string>
+    <string name="defult_health_String">अनजान</string>
+    <string name="dead_health_String">मृत</string>
+    <string name="good_health_String">अच्छा</string>
+    <string name="over_heat_health_String">गर्मी पर</string>
+    <string name="over_voltage_health_String">वोल्टेज से अधिक</string>
+    <string name="faliur_health_String">असफलता</string>
+    <string name="not_charging_status">चार्ज नहीं हो रहा</string>
+    <string name="full_status">पूर्ण</string>
+    <string name="discharge_status">निर्वहन</string>
+
+    <string name="defult_status">अनजान</string>
+    <string name="charging_status">चार्ज</string>
+
+
+
+    <string name="hour">घंटे और </string>
+    <string name="mint"> मिनटों</string>
+
+    <string name="setting_language_main">भाषा</string>
+    <string name="setting_language_messae">डिवाइस भाषा पर ध्यान न दें और अन्य उपयोग</string>
+    <string name="more_apps">और ऐप</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+
+    <string name="temperature_heading_setting">में तापमान</string>
+    <string name="temperature_detaile_setting">तापमान की इकाई या तो सेल्सियस (सी) या फेरनहाइट (एफ) का चयन</string>
+    <string name="charging_time_heading_setting">चेरिंग समय स्क्रीन</string>
+    <string name="charging_ime_detaile_setting">शो का आकलन चार्ज समय स्क्रीन</string>
+    <string name="Alert_bt_setting">चेतावनी सेटिंग</string>
+    <string name="Alert_custom_tv_setting">कस्टमाइज़ चेतावनी सेटिंग</string>
+    <string name="translater_heading_setting">अनुवादक</string>
+    <string name="translater_detaile_setting">जो लोग मदद की एप्लिकेशन को अनुवाद करते हैं।.</string>
+    <string name="alarm_full_battery_heading_setting">चेतावनी दिखा जब बैटरी भरा है</string>
+    <string name="alarm_low_battery_heading_setting">चेतावनी दिखा जब बैटरी कम है</string>
+    <string name="alarm_high_temp_heading_setting">चेतावनी दिखा जब बैटरी तापमान अधिक है</string>
+    <string name="Alert_custom_full_battery_tv_setting">बैटरी पूर्ण स्तर</string>
+    <string name="Alert_custom_low_battery_tv_setting">बैटरी कम स्तर</string>
+    <string name="Alert_custom__high_custom_tv_setting">बैटरी तापमान</string>
+    <string name="battery_level_for_notification">बैटरी का स्तर</string>
+    <string name="Alert_custom__full_level">पूर्ण बैटरी</string>
+    <string name="Alert_custom__low_level">कम बैटरी</string>
+    <string name="Alert_custom__high_temp">बैटरी गर्म</string>
+    <string name="dissconneced">असंबद्ध</string>
+    <string name="notification_heading_setting">यदि चार्ज नहीं छुपाएं</string>
+    <string name="notification_detaile_setting">"न्यूनतम" प्राथमिकता संदेश का प्रयोग करता है, तो चार्ज नहीं</string>
+    <string name="permanent_notification_heading_setting">अधिसूचना</string>
+    <string name="permanent_notification_detaile_setting">चालू करें स्थायी संदेश बंद</string>
+    <string name="toast_hide_notificaion_message">अधिसूचना आरोप पर प्रदर्शित किया जाएगा</string>
+    <!-- new line-->
+    <string name="remove_ads">विज्ञापन हटाएँ</string>
+    <string name="action_alert_settings">चेतावनी सेटिंग</string>
+    <string name="flowingcurrent_text_view">बहती प्रवाह</string>
+
+</resources>

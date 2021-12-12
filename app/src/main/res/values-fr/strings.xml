@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+    <string name="app_name">Ampere Meter</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_pro">Acheter Version Pro</string>
+    <string name="action_Rate">Évaluez-Nous</string>
+    <string name="action_share">Partager</string>
+
+    <string name="level_text_view">Niveau</string>
+    <string name="remaning_text_view">Restant</string>
+    <string name="capacity_text_view">Capacité</string>
+    <string name="technonlogy_text_view">Technologie</string>
+    <string name="healt_text_view">Santé</string>
+    <string name="temperature_text_view">Temperature</string>
+    <string name="voltage_text_view">Tension</string>
+    <string name="charger_text_view">Chargeur</string>
+    <string name="model_text_view">Modèle</string>
+    <string name="status_text_view">Condition</string>
+    <string name="android_version_text_view">version d\'Android</string>
+    <string name="build_id_text_view">Build ID</string>
+    <string name="dialog_estimate_text_view">Niveau Estimé</string>
+    <string name="dialog_time_text_view">Temps</string>
+    <string name="setting_message1_text_view">Ouvert a la connection</string>
+    <string name="setting_message2_text_view">Cette application commence automatiquement lorsque vous branchez un chargeur</string>
+
+    <string name="message_text_view">Veuillez appuyer sur le button connecté pour plus de renseignements</string>
+    <string name="chip_message1_text_view">* Désolé, votre portable ne contient pas de capteur requiert pour calculer le courant. Ceci est par ce que les applications ne peuvent pas capter le courant sans une puce. Dans son absence, l\'application évalue le courant à base du courant alternatif (AC) et le USB, qui ne donnent que des approximations sur le niveau du courant.</string>
+    <string name="chip_message2_text_view">* De plus, cela calcule le temps attendu. Cette particularité est additionelle et unique à Ampere Meter app. Elle a été ajoutée pour faciliter les utilisateurs qui n\'ont pas de puce, pour qu\'ils savent le temps estimé.</string>
+    <string name="chip_message3_text_view">* Si vous rencontrez des difficultés à vous servir de cette application, veuillez nous contacter par email.</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">ok</string>
+
+
+    <string name="connectd">Connecté</string>
+    <string name="not_charging">Ne Charge Pas</string>
+    <string name="defult_plug_type">Inconnu</string>
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">Inconnu</string>
+    <string name="dead_health_String">Mort</string>
+    <string name="good_health_String">Bien</string>
+    <string name="over_heat_health_String">Trop Chaud</string>
+    <string name="over_voltage_health_String">Trop de Tension</string>
+    <string name="faliur_health_String">Échec</string>
+    <string name="not_charging_status">Ne Charge Pas</string>
+    <string name="full_status">Rempli</string>
+    <string name="discharge_status">Charge s\'écoule</string>
+
+    <string name="defult_status">Inconnu</string>
+    <string name="charging_status">Charge</string>
+
+
+    <string name="hour">heures et</string>
+    <string name="mint"> minutes</string>
+
+    <string name="setting_language_main">Langage</string>
+    <string name="setting_language_messae">Ignorer langage de l\'appareil et utiliser un autre</string>
+    <string name="more_apps">Plus d\'applications</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+
+    <string name="temperature_heading_setting">Température en</string>
+    <string name="temperature_detaile_setting">L\'unité de température choisit soit Celsius (C) ou Fahrenheit (F)</string>
+    <string name="charging_time_heading_setting">Écran de temps Charing</string>
+    <string name="charging_ime_detaile_setting">Afficher l\'écran d\'estimation de la durée de charge</string>
+    <string name="Alert_bt_setting">Paramètre d\'alerte</string>
+    <string name="Alert_custom_tv_setting">Personnaliser le paramètre d\'alerte</string>
+    <string name="translater_heading_setting">Traducteurs</string>
+    <string name="translater_detaile_setting">Les personnes qui ont aidé à traduire l\'application.</string>
+    <string name="alarm_full_battery_heading_setting">Afficher l\'alerte lorsque la batterie est pleine</string>
+    <string name="alarm_low_battery_heading_setting">Afficher l\'alerte lorsque la batterie est faible</string>
+    <string name="alarm_high_temp_heading_setting">Afficher l\'alerte lorsque la température de la batterie est élevée</string>
+    <string name="Alert_custom_full_battery_tv_setting">Batterie niveau plein</string>
+    <string name="Alert_custom_low_battery_tv_setting">Batterie faible niveau</string>
+    <string name="Alert_custom__high_custom_tv_setting">Température batterie</string>
+    <string name="battery_level_for_notification">Niveau de batterie</string>
+    <string name="Alert_custom__full_level">Batterie pleine</string>
+    <string name="Alert_custom__low_level">Batterie faible</string>
+    <string name="Alert_custom__high_temp">Batterie chaude</string>
+    <string name="dissconneced">Sans rapport</string>
+    <string name="notification_heading_setting">Masquer si non chargé</string>
+    <string name="notification_detaile_setting">Utilisez le message de priorité "minimum" si vous ne chargez pas</string>
+    <string name="permanent_notification_heading_setting">Notification</string>
+    <string name="permanent_notification_detaile_setting">Activer / désactiver le message permanent</string>
+    <string name="toast_hide_notificaion_message">La notification sera affichée sur la facture</string>
+    <!-- new line-->
+    <string name="remove_ads">Supprimez la pub</string>
+    <string name="action_alert_settings">Paramètres d\'alerte</string>
+    <string name="flowingcurrent_text_view">Courant d\'écoulement</string>
+
+</resources>
+

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+    <string name="app_name">ամպեր Հաշվիչների
+</string>
+    <string name="action_settings">Կառավարում</string>
+    <string name="action_pro">Գնել Pro տարբերակը</string>
+    <string name="action_Rate">Գնահատել մեզ</string>
+    <string name="action_share">բաժնետոմս</string>
+
+    <string name="level_text_view">մակարդակ</string>
+    <string name="remaning_text_view"> Մնացյալ</string>
+    <string name="capacity_text_view">կարողություն</string>
+    <string name="technonlogy_text_view">տեխնոլոգիա</string>
+    <string name="healt_text_view">առողջություն</string>
+    <string name="temperature_text_view"> ջերմաստիճան
+</string>
+    <string name="voltage_text_view">Լարման</string>
+    <string name="charger_text_view">Charger</string>
+    <string name="model_text_view">մոդել</string>
+    <string name="status_text_view">Ստատուս</string>
+    <string name="android_version_text_view">Android Տարբերակ</string>
+    <string name="build_id_text_view">Կառուցել ID- ն</string>
+    <string name="dialog_estimate_text_view">Մոտավոր Լիցքավորում</string>
+    <string name="dialog_time_text_view">ժամանակ</string>
+    <string name="setting_message1_text_view">Բաց է միացնել</string>
+    <string name="setting_message2_text_view">Դիմումը ավտոմատ կերպով սկսում է, երբ դուք միացնել լիցքավորիչը</string>
+
+    <string name="message_text_view">Խնդրում ենք սեղմել է միացված կոճակը: Լրացուցիչ տեղեկությունների համար
+</string>
+    <string name="chip_message1_text_view">* Ներեցեք, ձեր հեռախոսը պետք chip, որը չափում ընթացիկ. այնպես որ ցանկացած ծրագիրը չի կարող չափել հոսքը ընթացիկ միջոցով programmatically է ձեր հեռախոսում, որը ոչ ունեցող chip.So բացակայության պայմաններում chip, մենք գնահատել ընթացիկ հիման վրա USB եւ AC լիցքավորիչի, որը տեղեկացնելու եւ մոտավոր մակարդակը ներկայիս հոսում մալուխի</string>
+    <string name="chip_message2_text_view">* Ավելին, այն հաշվարկել ակնկալվում լիցքավորման ժամանակ: Այս հատկությունը լրացուցիչ եւ այն ներառված է միայն ամպեր մետր app.it ավելացված է հեշտացնել այդ հաճախորդներին, որոնց հեռախոսը չի ունենալու chip, որպեսզի նրանք կարող են ոչ այն մասին, որ սպասվում է լիցքավորման ժամանակ
+</string>
+    <string name="chip_message3_text_view">* Եթե ​​դուք բախվել ցանկացած դժվարության օգտագործելով այս ծրագիրը, խնդրում ենք տեղեկացնել մեզ էլ.փոստով
+</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">լավ</string>
+
+
+    <!--Main Activity-->
+    <string name="connectd">կապված</string>
+    <string name="not_charging">Not Լիցքավորում</string>
+    <string name="defult_plug_type">անհայտ</string>
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">անհայտ</string>
+    <string name="dead_health_String">մեռած</string>
+    <string name="good_health_String">լավ</string>
+    <string name="over_heat_health_String">Over շոգին</string>
+    <string name="over_voltage_health_String">ավելի լարման</string>
+    <string name="faliur_health_String">անհաջողություն</string>
+    <string name="not_charging_status">Not Լիցքավորում</string>
+    <string name="full_status">լրիվ</string>
+    <string name="discharge_status">լիցքաթափում</string>
+
+    <string name="defult_status">անհայտ</string>
+    <string name="charging_status">Լիցքավորում</string>
+
+
+
+    <string name="hour">ժամ եւ </string>
+    <string name="mint"> արձանագրություն
+</string>
+
+    <string name="setting_language_main">Լեզու</string>
+    <string name="setting_language_messae">Անտեսել սարքի լեզուն եւ օգտագործել այլ</string>
+    <string name="more_apps">Լրացուցիչ հավելվածներ</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+
+    <string name="temperature_heading_setting">ջերմաստիճանը</string>
+    <string name="temperature_detaile_setting">Միավորը ջերմաստիճանի ընտրել կամ Celsius (C) կամ Fahrenheit (F)</string>
+    <string name="charging_time_heading_setting">Charing ժամանակը էկրան</string>
+    <string name="charging_ime_detaile_setting">Ցույց տալ Գնահատելով լիցքավորման ժամանակ էկրանին</string>
+    <string name="Alert_bt_setting">Alert Setting</string>
+    <string name="Alert_custom_tv_setting">Անհատականացրեք Alert Ընդլայնված</string>
+    <string name="translater_heading_setting">Թարգմանիչներ</string>
+    <string name="translater_detaile_setting">Այն մարդիկ, ովքեր օգնում թարգմանել ծրա</string>
+    <string name="alarm_full_battery_heading_setting">Ցույց տալ, զգուշացնելու, երբ մարտկոցը լրիվ</string>
+    <string name="alarm_low_battery_heading_setting">Ցույց տալ, զգուշացնելու, երբ մարտկոցը ցածր</string>
+    <string name="alarm_high_temp_heading_setting">Ցույց տալ, զգուշացնելու, երբ մարտկոցը ջերմաստիճանը բարձր է</string>
+    <string name="Alert_custom_full_battery_tv_setting">Մարտկոցը լրիվ մակարդակը</string>
+    <string name="Alert_custom_low_battery_tv_setting">Մարտկոցի ցածր մակարդակը</string>
+    <string name="Alert_custom__high_custom_tv_setting">Battery ջերմաստիճանը</string>
+    <string name="battery_level_for_notification">Մարտկոցի լիցքավորման մակարդակը</string>
+    <string name="Alert_custom__full_level">մարտկոցը լրիվ</string>
+    <string name="Alert_custom__low_level">Battery ցածր</string>
+    <string name="Alert_custom__high_temp">Battery տաք</string>
+    <string name="dissconneced">կցկտուր</string>
+    <string name="notification_heading_setting">Թաքցնել եթե չի գանձվում</string>
+    <string name="notification_detaile_setting">Օգտագործեք «նվազագույն» առաջնահերթ հաղորդագրություն եթե ոչ լիցքավորման</string>
+    <string name="permanent_notification_heading_setting">ծանուցում</string>
+    <string name="permanent_notification_detaile_setting">Միացնել / անջատելու մշտական հաղորդագրության</string>
+    <string name="toast_hide_notificaion_message">Ծանուցումը կցուցադրվեն մեղադրանքի</string>
+    <!-- new line-->
+    <string name="remove_ads">Հեռացնել գովազդը</string>
+    <string name="action_alert_settings">Alert կարգավորումները</string>
+    <string name="flowingcurrent_text_view">հոսում ընթացիկ</string>
+
+</resources>

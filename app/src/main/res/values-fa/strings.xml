@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+
+    <string name="app_name">آمپر سنج</string>
+    <string name="action_settings">تنضیمات</string>
+    <string name="action_pro">خرید نسخه حرفه ای</string>
+    <string name="action_Rate">به ما امتیاز دهید</string>
+    <string name="action_share">اشتراک گذاری برنامه</string>
+
+    <string name="level_text_view">سطح</string>
+    <string name="remaning_text_view">باقیمانده</string>
+    <string name="capacity_text_view">ظرفیت</string>
+    <string name="technonlogy_text_view">تکنولوژی</string>
+    <string name="healt_text_view">سلامتی</string>
+    <string name="temperature_text_view">دما</string>
+    <string name="voltage_text_view">ولتاژ</string>
+    <string name="charger_text_view">شارژر</string>
+    <string name="model_text_view">Model</string>
+    <string name="status_text_view">وضعیت</string>
+    <string name="android_version_text_view">نسخه اندروید</string>
+    <string name="build_id_text_view">شناسه ساخت</string>
+    <string name="dialog_estimate_text_view">شارژ تخمین زده شده</string>
+    <string name="dialog_time_text_view">مدت زمان</string>
+    <string name="setting_message1_text_view">باز کنید تا وصل شوید</string>
+    <string name="setting_message2_text_view">زمانی که شارژر را وصل میکنید برنامه به صورت خودکار راه اندازی میشود</string>
+
+    <string name="message_text_view">لطفا روی دکمه وصل شد کلیک کنید تا اطلاعات نمایش داده شوند</string>
+    <string name="chip_message1_text_view">* با عرض پوزش دستگاه شما فاقد سنسور اندازه گیری است.بنابراین هیچ برنامه ای نمیتواند عبور جریان را اندازه گیری کند.پس در غیاب سنسور برآورد ما در حال حاضر بر اساس سطح تقریبی که از جریان شارژر یو اس بی یا آداپتور نمایش داده میشود.</string>
+    <string name="chip_message2_text_view">* علاوه بر این مدت زمان شارژ را محاسبه میکند.این ویژگی مکمل است و فقط در برنامه آمپر سنج گنجانده شده است.به منظوره سهولت آن دسته از مشتریانی که دستگاه آنها این سنسور را ندارد آنها نمیتوانند درباره ی مدت زمان شارژ اطلاعی داشته باشند .</string>
+    <string name="chip_message3_text_view">* اگر در استفاده از این برنامه با مشکل مواجه شدید لطفا به وسیله ایمیل به ما اطلاع رسانی کنید</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">باشه</string>
+
+
+    <string name="connectd">وصل شد</string>
+    <string name="not_charging">شارژ نمیشود</string>
+    <string name="defult_plug_type">ناشناخته</string>
+    <string name="AC_plug_type">آداپتور</string>
+    <string name="Usb_plug_type">یو اس بی</string>
+    <string name="defult_health_String">ناشناخته</string>
+    <string name="dead_health_String">خراب</string>
+    <string name="good_health_String">خوب</string>
+    <string name="over_heat_health_String">خیلی داغ</string>
+    <string name="over_voltage_health_String">ولتاژ بیش از حد</string>
+    <string name="faliur_health_String">خرابی</string>
+    <string name="not_charging_status">شارژ نمیشود</string>
+    <string name="full_status">پر</string>
+    <string name="discharge_status">شارژ نمیشود</string>
+
+    <string name="defult_status">ناشناخته</string>
+    <string name="charging_status">در حال شارژ</string>
+
+
+    <string name="hour">ساعت و </string>
+    <string name="mint"> دقیقه</string>
+
+    <string name="setting_language_main">زبان</string>
+    <string name="setting_language_messae">چشم پوشی از زبان دستگاه و استفاده از زبان دیگر</string>
+    <string name="more_apps">برنامه های بیشتر</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+    <string name="temperature_heading_setting">دما در</string>
+    <string name="temperature_detaile_setting">واحد دما را انتخاب کنید یا سلسیوس (C) یا فارنهایت (F)</string>
+    <string name="charging_time_heading_setting">صفحه نمایش زمان چرینگ</string>
+    <string name="charging_ime_detaile_setting">نمایش برآورد شارژ صفحه نمایش زمان</string>
+    <string name="Alert_bt_setting">تنظیم هشدار</string>
+    <string name="Alert_custom_tv_setting">سفارشی کردن تنظیمات هشدار</string>
+    <string name="translater_heading_setting">ترجمه</string>
+    <string name="translater_detaile_setting">افرادی که کمک برنامه را ترجمه کنید..</string>
+    <string name="alarm_full_battery_heading_setting">نمایش هشدار زمانی که باتری پر است</string>
+    <string name="alarm_low_battery_heading_setting">نمایش هشدار زمانی که باتری کم است</string>
+    <string name="alarm_high_temp_heading_setting">نمایش هشدار هنگامی که درجه حرارت باتری بالا است</string>
+    <string name="Alert_custom_full_battery_tv_setting">باتری سطح کامل</string>
+    <string name="Alert_custom_low_battery_tv_setting">باتری سطح پایین</string>
+    <string name="Alert_custom__high_custom_tv_setting">دمای باتری</string>
+    <string name="battery_level_for_notification">سطح باتری</string>
+    <string name="Alert_custom__full_level">باتری کامل</string>
+    <string name="Alert_custom__low_level">باتری کم</string>
+    <string name="Alert_custom__high_temp">باتری داغ</string>
+    <string name="dissconneced">بیارتباط</string>
+    <string name="notification_heading_setting">مخفی کردن اگر متهم نیست</string>
+    <string name="notification_detaile_setting">استفاده از "حداقل" پیام اولویت اگر شارژ نمی</string>
+    <string name="permanent_notification_heading_setting">اطلاع</string>
+    <string name="permanent_notification_detaile_setting">روشن / خاموش پیام دائمی</string>
+    <string name="toast_hide_notificaion_message">اطلاع رسانی خواهد شد به اتهام نمایش داده</string>
+    <!-- new line-->
+    <string name="remove_ads">حذف تبلیغات</string>
+    <string name="action_alert_settings">تنظیمات هشدار</string>
+    <string name="flowingcurrent_text_view">جریان</string>
+
+</resources>

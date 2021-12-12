@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:background="@color/layout_background"
+    android:layout_height="match_parent">
+    <include layout="@layout/tool_bar"
+        android:id="@+id/tool_bar"
+        ></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/layout_inner"
+        android:layout_width="match_parent"
+        android:elevation="4dp"
+        android:layout_height="wrap_content">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:text="@string/setting_message1_text_view"
+    android:layout_marginLeft="10dp"
+android:paddingTop="5dp"
+    android:id="@+id/heading_text_view"
+    android:textAppearance="?attr/textAppearanceLargePopupMenu"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/heading_text_view"
+       >
+
+       <TextView
+           android:layout_marginBottom="20dp"
+           android:layout_width="0dp"
+
+           android:layout_weight="8"
+               android:layout_marginLeft="15dp"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+
+               android:id="@+id/detaile_text_view"
+               android:text="@string/setting_message2_text_view"/>
+
+       <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+           android:checked="true"
+            android:layout_marginLeft="15dp"
+
+            android:id="@+id/open_checkbox"
+           />
+   </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/layout_inner"
+        android:layout_width="match_parent"
+        android:elevation="4dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/permanent_notification_heading_setting"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="5dp"
+            android:id="@+id/notification_heading_text_view"
+            android:textAppearance="?attr/textAppearanceLargePopupMenu"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notification_heading_text_view"
+            >
+
+            <TextView
+                android:layout_marginBottom="20dp"
+                android:layout_width="0dp"
+                android:layout_weight="8"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+
+                android:id="@+id/notification_detaile_text_view"
+                android:text="@string/notification_detaile_setting"/>
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="15dp"
+                android:checked="false"
+                android:id="@+id/notification_checkbox_setting"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+<!--    <RelativeLayout-->
+<!--        android:orientation="horizontal"-->
+<!--        android:id="@+id/ADD_BTN_LAYOUT"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/activity_horizontal_margin"-->
+<!--        android:layout_marginLeft="@dimen/activity_horizontal_margin"-->
+<!--        android:layout_marginRight="@dimen/activity_horizontal_margin"-->
+<!--        android:elevation="@dimen/elevation_size"-->
+<!--        android:background="@color/layout_inner">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_weight="5"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Download Status Saver"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginTop="@dimen/tv_margin"-->
+<!--            android:layout_marginBottom="@dimen/tv_margin"-->
+<!--            android:textColor="@color/tv_information_color"-->
+<!--            android:textSize="25sp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:padding="2dp"-->
+
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="AD"-->
+<!--            android:layout_margin="3dp"-->
+<!--            android:textColor="@color/layout_inner"-->
+<!--            android:textSize="15sp"-->
+<!--            android:background="@color/tv_information_color"-->
+<!--            android:textStyle="bold" />-->
+<!--    </RelativeLayout>-->
+
+    <com.google.android.gms.ads.AdView
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_gravity="center"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="MEDIUM_RECTANGLE"
+        ads:adUnitId="@string/admobe_banner_setting">
+    </com.google.android.gms.ads.AdView>
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/layout_inner"
+        android:layout_width="match_parent"
+        android:elevation="4dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/permanent_notification_heading_setting"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="5dp"
+            android:id="@+id/permanent_notification_heading_text_view"
+            android:textAppearance="?attr/textAppearanceLargePopupMenu"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/permanent_notification_heading_text_view"
+            >
+            <TextView
+                android:layout_marginBottom="20dp"
+                android:layout_width="0dp"
+                android:layout_weight="8"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+
+                android:id="@+id/permanent_notification_detaile_text_view"
+                android:text="@string/permanent_notification_detaile_setting"/>
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="15dp"
+                android:checked="false"
+                android:id="@+id/permanent_notification_checkbox_setting"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/layout_inner"
+        android:elevation="4dp"
+
+        android:id="@+id/language_linear_layout">
+
+        <LinearLayout
+            android:background="?attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_language_main"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textAppearance="?attr/textAppearanceLargePopupMenu"/>
+
+        <TextView
+            android:padding="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_language_messae"
+            android:layout_marginLeft="20dp"
+
+            android:id="@+id/textView4" />
+            </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/layout_inner"
+        android:elevation="4dp"
+
+        android:id="@+id/aboutus_linear_layout">
+
+        <LinearLayout
+            android:background="?attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:textAppearance="?attr/textAppearanceLargePopupMenu"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/layout_inner"
+        android:elevation="4dp"
+
+        android:id="@+id/translater_linear_layout">
+        <LinearLayout
+            android:background="?attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/translater_heading_setting"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textAppearance="?attr/textAppearanceLargePopupMenu"/>
+
+        <TextView
+            android:padding="5dp"
+            android:layout_marginBottom="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/translater_detaile_setting"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+
+
+            />
+            </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:drawSelectorOnTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/layout_inner"
+        android:elevation="4dp"
+        android:id="@+id/temperature_linear_layout">
+        <LinearLayout
+            android:background="?attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temperature_heading_setting"
+            android:id="@+id/teperature_tv_setting"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textAppearance="?attr/textAppearanceLargePopupMenu"/>
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temperature_detaile_setting"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+
+
+            android:id="@+id/textView2" />
+            </LinearLayout>
+    </LinearLayout>
+
+       <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/layout_inner"
+        android:layout_width="match_parent"
+        android:elevation="4dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/alert_bt_setting"
+
+        >
+        <LinearLayout
+            android:background="?attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+        <TextView
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textAppearance="?attr/textAppearanceLargePopupMenu"
+            android:text="@string/Alert_bt_setting"
+            android:id="@+id/textView3" />
+</LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/layout_inner"
+        android:layout_width="match_parent"
+        android:elevation="4dp"
+
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/charging_time_heading_tv"
+        android:text="@string/charging_time_heading_setting"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="5dp"
+        android:textAppearance="?attr/textAppearanceLargePopupMenu"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/charging_time_heading_tv"
+        >
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/charging_ime_detaile_setting"/>
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:checked="true"
+            android:id="@+id/charging_time_checkbox_setting"
+            />
+    </LinearLayout>
+    </RelativeLayout>
+<!--    <RelativeLayout-->
+<!--        android:orientation="horizontal"-->
+<!--        android:id="@+id/ADD_BTN_LAYOUT"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="@dimen/tv_margin"-->
+<!--        android:layout_marginLeft="@dimen/tv_margin"-->
+<!--        android:layout_margin="@dimen/tv_margin"-->
+<!--        android:elevation="@dimen/elevation_size"-->
+<!--        android:background="@color/layout_inner">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_weight="5"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textAllCaps="true"-->
+<!--            android:text="Download update software"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginTop="@dimen/tv_margin"-->
+<!--            android:layout_marginBottom="@dimen/tv_margin"-->
+<!--            android:textColor="@color/tv_information_color"-->
+<!--            android:textSize="25sp"-->
+<!--            />-->
+
+<!--    </RelativeLayout>-->
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

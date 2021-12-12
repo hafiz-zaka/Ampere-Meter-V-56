@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+    <string name="app_name">àîôø îèø</string>
+    <string name="action_settings">äâãø</string>
+    <string name="action_pro">øëåù âéøñä îìàä</string>
+    <string name="action_Rate">ãøâ àåúðå</string>
+    <string name="action_share">ùúó</string>
+
+    <string name="level_text_view">øîä</string>
+    <string name="remaning_text_view">ðåúø</string>
+    <string name="capacity_text_view">úëåìä</string>
+    <string name="technonlogy_text_view">èëðåìåâéä</string>
+    <string name="healt_text_view">ú÷éðåú</string>
+    <string name="temperature_text_view">èîôøèåøä</string>
+    <string name="voltage_text_view">îúç</string>
+    <string name="charger_text_view">Chargerîèòï>Model</string>
+    <string name="status_text_view">ñèèåñ</string>
+    <string name="android_version_text_view">âéøñú àðãøåàéã</string>
+    <string name="build_id_text_view">îñôø âéøñú build</string>
+    <string name="dialog_estimate_text_view">äòøëú îùê èòéðä</string>
+    <string name="dialog_time_text_view">æîï</string>
+    <string name="setting_message1_text_view">ôúç òì îðú ìèòåï</string>
+    <string name="setting_message2_text_view">äàôìé÷öéä úôúç àåèåîèéú áòú ääèòðä</string>
+
+    <string name="message_text_view">ðà ììçåõ òì ëôúåø "îçåáø" òì îðú ì÷áì îéãò ðåñó</string>
+    <string name="chip_message1_text_view">* ñìéçä, äèìôåï ùìê ìà îëéì çééùï äîåãã îúç, ëê ùùåí àôìé÷öéä ìà éëåìä ìîãåã àú äîúç, áäòãø çééùï àðå ððñä ìäòøéê òì áñéñ äèòðä îîèòï åçéáåø USB îä ùðåúï îéãò çì÷é áìáã òì </string>
+    <string name="chip_message2_text_view">* áðåñó æä îçåùá àú æîï ääèòðä äîåòøê äâãøä æàú äéà úåñó åôåòìú ø÷ á"àôø îèø" úåñó æä äåñó òì îðú ìñééò ìîùúîùéí ùàéï ìäí çééùï ëê ùéëìå ìãòú áòøê àú æîï ääèòðä äîåòøê</string>
+    <string name="chip_message3_text_view">áîéãä åðéú÷ìúí ááòéä áàôìé÷öéä æàú àðà úéãòå àåúðå áàîöòåú îééì</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">àéùåø</string>
+
+
+    <string name="connectd">îçåáø</string>
+    <string name="not_charging">ìà îèòéï</string>
+    <string name="defult_plug_type">ìà éãåò</string>
+    <string name="AC_plug_type">çùîì</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">ìà éãåò</string>
+    <string name="dead_health_String">îú</string>
+    <string name="good_health_String">èåá</string>
+    <string name="over_heat_health_String">çåí éúø</string>
+    <string name="over_voltage_health_String">äèòðú éúø</string>
+    <string name="faliur_health_String">ùâéàä</string>
+    <string name="not_charging_status">ìà îèòéï</string>
+    <string name="full_status">îìà</string>
+    <string name="discharge_status">îúøå÷ï</string>
+
+    <string name="defult_status">ìà éãåò</string>
+    <string name="charging_status">îèòéï</string>
+
+    <string name="model_text_view">דֶג</string>
+    <string name="hour">ùòåú </string>
+    <string name="mint"> åã÷åú</string>
+
+    <string name="setting_language_main">ùôåú</string>
+    <string name="setting_language_messae">äúòìí îùôú îëùéø åäùúîù áùôä äîåâãøú ôä</string>
+    <string name="more_apps">àôìé÷öéåú ðåñôåú</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+    <string name="temperature_heading_setting">טמפרטורה ב</string>
+    <string name="temperature_detaile_setting">יחידת הטמפרטורה לבחור צלזיוס (C) או פרנהייט (F)</string>
+    <string name="charging_time_heading_setting">זמן מסך Charing</string>
+    <string name="charging_ime_detaile_setting">הערכה תכנית לחייב זמן מסך</string>
+    <string name="Alert_bt_setting">הגדרת התראה</string>
+    <string name="Alert_custom_tv_setting">התאמה אישית של הגדרות התראה</string>
+    <string name="translater_heading_setting">מתרגם</string>
+    <string name="translater_detaile_setting">האנשים שעזרו לתרגם את האפליקציה..</string>
+    <string name="alarm_full_battery_heading_setting">צג התראה כאשר הסוללה מלאה</string>
+    <string name="alarm_low_battery_heading_setting">צג התראה כאשר הסוללה חלשה</string>
+    <string name="alarm_high_temp_heading_setting">הצג התראה כאשר טמפרטורת הסוללה היא גבוהה</string>
+    <string name="Alert_custom_full_battery_tv_setting">רמה מלאה סוללה</string>
+    <string name="Alert_custom_low_battery_tv_setting">רמת סוללה חלשה</string>
+    <string name="Alert_custom__high_custom_tv_setting">טמפרטורת הסוללה</string>
+    <string name="battery_level_for_notification">רמת סוללה</string>
+    <string name="Alert_custom__full_level">סוללה מלאה</string>
+    <string name="Alert_custom__low_level">סוללה חלשה</string>
+    <string name="Alert_custom__high_temp">סוללה חמה</string>
+    <string name="dissconneced">קשור</string>
+    <string name="notification_heading_setting">סתר אם לא מחויב</string>
+    <string name="notification_detaile_setting">השתמש ההודעה "המינימום" עדיפה אם לא לחייב</string>
+    <string name="permanent_notification_heading_setting">הוֹדָעָה</string>
+    <string name="permanent_notification_detaile_setting">הפעלה / כיבוי של המסר קבע</string>
+    <string name="toast_hide_notificaion_message">הודעה יוצגה על התשלום</string>
+    <!-- new line-->
+    <string name="remove_ads">הסר פרסומות</string>
+    <string name="action_alert_settings">הגדרות התראה</string>
+    <string name="flowingcurrent_text_view">הזרם העובר</string>
+
+</resources>

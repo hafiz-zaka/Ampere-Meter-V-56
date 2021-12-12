@@ -1,0 +1,127 @@
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+
+    <string name="app_name">Ampere Meter</string>
+    <string name="action_settings">Nastavenia</string>
+    <string name="action_pro">Zakupit PRO verziu</string>
+    <string name="action_Rate">Ohodnotit</string>
+    <string name="action_share">Zdielat</string>
+
+    <string name="level_text_view">Percenta</string>
+    <string name="remaning_text_view">Zostava</string>
+    <string name="capacity_text_view">Kapacita</string>
+    <string name="technonlogy_text_view">Technologia</string>
+    <string name="healt_text_view">Stav</string>
+    <string name="temperature_text_view">Teplota</string>
+    <string name="voltage_text_view">Napatie</string>
+    <string name="charger_text_view">Nabijacka</string>
+    <string name="model_text_view">Model</string>
+    <string name="status_text_view">Stav</string>
+    <string name="android_version_text_view">Verzia Androidu</string>
+    <string name="build_id_text_view">Cislo zostavy</string>
+    <string name="dialog_estimate_text_view">Odhadovane nabitie</string>
+    <string name="dialog_time_text_view">Cas</string>
+    <string name="setting_message1_text_view">Otvorit pri pripojeni</string>
+    <string name="setting_message2_text_view">Aplikacia sa automaticky spusti pri pripojeni nabijacky</string>
+    <string name="message_text_view">Stlacte tlacidlo "Pripojene" pre zobrazenie viac moznosti</string>
+    <string name="chip_message1_text_view">* Lutujeme, ale vase zariadenie nema senzor na meranie el. prudu. Ziadna aplikacia nedokaze zmerat prud v zariadeni bez senzora.V tychto pripadoch odhadujeme prud na zaklade USB a nabijacky, ktore poskytuju len pribliznu hodnotu nabijacieho prudu</string>
+    <string name="chip_message2_text_view">* Cas nabijania je pocitany, ale tato funkcia je len vysledkom vypoctu aplikacie Ampere Meter. Tato funkcia je pridana pre zariadenia bez nabijacieho senzora, kde sa neda cas urcit presne</string>
+    <string name="chip_message3_text_view">* Ak pocas pouzivania aplikacie narazite na problem, nevahajte nas kontaktovat emailom. (Idealne anglicky)</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">ok</string>
+
+
+    <string name="connectd">Pripojene</string>
+    <string name="not_charging">Nenabija</string>
+    <string name="defult_plug_type">Nezname</string>
+    <string name="AC_plug_type">Nabijacka</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">Nezname</string>
+    <string name="dead_health_String">Zly</string>
+    <string name="good_health_String">Dobry</string>
+    <string name="over_heat_health_String">Prehriate!</string>
+    <string name="over_voltage_health_String">Prepatie!</string>
+    <string name="faliur_health_String">Chyba!</string>
+    <string name="not_charging_status">Nenabija</string>
+    <string name="full_status">Nabite</string>
+    <string name="discharge_status">Vybijanie</string>
+
+    <string name="defult_status">Neznamy</string>
+    <string name="charging_status">Nabijanie</string>
+
+
+    <string name="hour">hodin a </string>
+    <string name="mint"> minut</string>
+
+    <string name="setting_language_main">Jazyk</string>
+    <string name="setting_language_messae">Ignorovat zariadenie a vybrat iny jazyk</string>
+    <string name="more_apps">Viac aplikacii</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+
+    </string-array>
+
+    <string name="temperature_heading_setting">teplotné</string>
+    <string name="temperature_detaile_setting">Jednotka teploty zvoliť Celzia (C) alebo Fahrenheita (F)</string>
+    <string name="charging_time_heading_setting">Obrazovka Charing čas</string>
+    <string name="charging_ime_detaile_setting">doba nabíjania obrazovku Show odhadnutie</string>
+    <string name="Alert_bt_setting">nastavenie Alert</string>
+    <string name="Alert_custom_tv_setting">Prispôsobte nastavenie Alert</string>
+    <string name="translater_heading_setting">Prekladatelia</string>
+    <string name="translater_detaile_setting">Ľudia, ktorí pomohli preložiť aplikáciu.</string>
+    <string name="alarm_full_battery_heading_setting">Zobraziť upozornenie, keď je batéria plne nabitá</string>
+    <string name="alarm_low_battery_heading_setting">Zobraziť upozornenie, keď je batéria vybitá</string>
+    <string name="alarm_high_temp_heading_setting">Zobraziť upozornenie, keď teplota batérie je vysoká</string>
+    <string name="Alert_custom_full_battery_tv_setting">Batéria je nabitá na úrovni</string>
+    <string name="Alert_custom_low_battery_tv_setting">Batérie nízka hladina</string>
+    <string name="Alert_custom__high_custom_tv_setting">teplota batérie</string>
+    <string name="battery_level_for_notification">úroveň batérie</string>
+    <string name="Alert_custom__full_level">batéria je nabitá</string>
+    <string name="Alert_custom__low_level">Slabá batéria</string>
+    <string name="Alert_custom__high_temp">batérie hot</string>
+    <string name="dissconneced">nezapojený</string>
+    <string name="notification_heading_setting">Skryť, pokiaľ nie je nabitá</string>
+    <string name="notification_detaile_setting">Použite "minimálna" Priorita správu, ak nenabíja</string>
+    <string name="permanent_notification_heading_setting">oznámenia</string>
+    <string name="permanent_notification_detaile_setting">Zapnutie / vypnutie stálej správy</string>
+    <string name="toast_hide_notificaion_message">Oznámenie sa zobrazí na náboji</string>
+    <!-- new line-->
+    <string name="remove_ads">Odstrániť reklamy</string>
+    <string name="action_alert_settings">nastavenie upozornenia</string>
+    <string name="flowingcurrent_text_view">plynulý prúd</string>
+
+</resources>

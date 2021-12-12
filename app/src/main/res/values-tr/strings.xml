@@ -1,0 +1,130 @@
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+
+    <string name="app_name">Ampere Meter</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_pro">Pro Sürüm satın almak</string>
+    <string name="action_Rate">Bizi değerlendirin</string>
+    <string name="action_share">Pay</string>
+
+    <string name="level_text_view">seviye</string>
+    <string name="remaning_text_view">Kalan</string>
+    <string name="capacity_text_view">Kapasite</string>
+    <string name="technonlogy_text_view">teknoloji</string>
+    <string name="healt_text_view">Sağlık</string>
+    <string name="temperature_text_view">sıcaklık</string>
+    <string name="voltage_text_view">Voltaj</string>
+    <string name="charger_text_view">Şarj</string>
+    <string name="model_text_view">Model</string>
+    <string name="status_text_view">durum</string>
+    <string name="android_version_text_view">Android Sürümü</string>
+    <string name="build_id_text_view">kimliği inşa</string>
+    <string name="dialog_estimate_text_view">tahmini Şarj</string>
+    <string name="dialog_time_text_view">Zaman</string>
+    <string name="setting_message1_text_view">bağlamak için Aç</string>
+    <string name="setting_message2_text_view">Daha fazla bilgi için bağlı butonuna charger</string>
+
+    <string name="message_text_view">Please basın bağladığınızda uygulama otomatik olarak başlar</string>
+    <string name="chip_message1_text_view">*Maalesef telefonunuz akımı ölçer hiçbir çip var. bu yüzden herhangi bir uygulama ölçemezsiniz
+içinde chip.So olmaması telefonunuzda, programlı geçen akım akışı
+çipin yokluğu, mevcut kablo üzerinden akan sadece Yaklaşık düzeyini bilgilendirmek USB ve AC şarj temelinde güncel tahmin
+</string>
+    <string name="chip_message2_text_view">* Üstelik şarj süresi beklenen hesaplamak. olan telefon hiçbir yaklaşık şarj süresi beklenen böylece çip sahip olmayanlar müşterilerine kolaylaştırmak için eklenen bu özellik ek olduğunu ve ampermetre app.it sadece kurulmuştur</string>
+    <string name="chip_message3_text_view">* Bu uygulamayı kullanarak herhangi bir sorun rastlarsanız e-posta üzerinden bizi bilgilendiriniz</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">tamam</string>
+
+
+    <string name="connectd">bağlı</string>
+    <string name="not_charging">Şarj olmuyor</string>
+    <string name="defult_plug_type">bilinmeyen</string>
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">bilinmeyen</string>
+    <string name="dead_health_String">ölü</string>
+    <string name="good_health_String">İyi</string>
+    <string name="over_heat_health_String">Aşırı Isı</string>
+    <string name="over_voltage_health_String">Aşırı Gerilim</string>
+    <string name="faliur_health_String">başarısızlık</string>
+    <string name="not_charging_status">Şarj olmuyor</string>
+    <string name="full_status">Tam</string>
+    <string name="discharge_status">boşaltma</string>
+
+    <string name="defult_status">bilinmeyen</string>
+    <string name="charging_status">doldurma</string>
+
+
+    <string name="hour">saat </string>
+    <string name="mint">dakika</string>
+
+    <string name="setting_language_main" >Language</string>
+    <string name="setting_language_messae" >Ignore device language and use other</string>
+    <string name="more_apps">Daha fazla uygulama</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+
+    <string name="temperature_heading_setting">Sıcaklık</string>
+    <string name="temperature_detaile_setting">Sıcaklık birimi ya celsius (C) ya da Fahrenheit (F)</string>
+    <string name="charging_time_heading_setting">Şarj etme süresi ekranı</string>
+    <string name="charging_ime_detaile_setting">Tahmini şarj süresi ekranını göster</string>
+    <string name="Alert_bt_setting">Uyarı Ayarı</string>
+    <string name="Alert_custom_tv_setting">Uyarı Ayarını Özelleştirme</string>
+    <string name="translater_heading_setting">Çevirmenler</string>
+    <string name="translater_detaile_setting">Uygulamayı çeviren kişilere yardım etti.</string>
+    <string name="alarm_full_battery_heading_setting">Pil dolduğunda uyarı göster</string>
+    <string name="alarm_low_battery_heading_setting">Pil zayıfladığında uyarı göster</string>
+    <string name="alarm_high_temp_heading_setting">Batarya sıcaklığı yüksek olduğunda uyarı göster</string>
+    <string name="Alert_custom_full_battery_tv_setting">Pil tam seviyesi</string>
+    <string name="Alert_custom_low_battery_tv_setting">Pil düşük seviyesi</string>
+    <string name="Alert_custom__high_custom_tv_setting">Akü sıcaklığı</string>
+    <string name="battery_level_for_notification">Pil seviyesi</string>
+    <string name="Alert_custom__full_level">Pil dolu</string>
+    <string name="Alert_custom__low_level">Düşük pil</string>
+    <string name="Alert_custom__high_temp">Pil sıcak</string>
+    <string name="dissconneced">Bağlantısız</string>
+    <string name="notification_heading_setting">Ücret alınmazsa gizle</string>
+    <string name="notification_detaile_setting">Şarj edilmiyorsa, "minimum" öncelik mesajını kullanın</string>
+    <string name="permanent_notification_heading_setting">Bildirim</string>
+    <string name="permanent_notification_detaile_setting">Daimi mesajı açma / kapatma</string>
+    <string name="toast_hide_notificaion_message">Bildirim, ücret karşılığı gösterilecek</string>
+    <!-- new line-->
+    <string name="remove_ads">reklamları kaldırmak</string>
+    <string name="action_alert_settings">Uyarı ayarları</string>
+    <string name="flowingcurrent_text_view">Akan akım</string>
+
+</resources>

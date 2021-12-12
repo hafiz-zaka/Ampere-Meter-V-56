@@ -1,0 +1,130 @@
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+
+    <string name="app_name">A 미터</string>
+    <string name="action_settings">설정</string>
+    <string name="action_pro">프로 버전 구매</string>
+    <string name="action_Rate">요금 소개</string>
+    <string name="action_share">몫</string>
+
+    <string name="level_text_view">수평</string>
+    <string name="remaning_text_view">남은</string>
+    <string name="capacity_text_view">생산 능력</string>
+    <string name="technonlogy_text_view">과학 기술</string>
+    <string name="healt_text_view">건강</string>
+    <string name="temperature_text_view">온도</string>
+    <string name="voltage_text_view">전압</string>
+    <string name="charger_text_view">충전기</string>
+    <string name="model_text_view">모델</string>
+    <string name="status_text_view">지위</string>
+    <string name="android_version_text_view">안드로이드 버전</string>
+    <string name="build_id_text_view">ID 빌드</string>
+    <string name="dialog_estimate_text_view">예상 충전</string>
+    <string name="dialog_time_text_view">시각</string>
+    <string name="setting_message1_text_view">연결 열기</string>
+    <string name="setting_message2_text_view">당신이 충전기를 연결하면 응용 프로그램이 자동으로 시작</string>
+
+    <string name="message_text_view">자세한 내용은 연결 버튼을 누르세요</string>
+    <string name="chip_message1_text_view">* 죄송 휴대 전화는 현재 측정에는 칩이 없습니다. 그래서 어떤 응용 프로그램은 측정 할 수 없다
+에 chip.So을 가지고 있지 휴대 전화에 프로그램을 통해 전류의 흐름
+칩이없는 경우, 우리는 현재의 케이블에 흐르는의 대략적인 레벨을 알려 USB 및 AC 충전기에 기초하여 현재 추정</string>
+    <string name="chip_message2_text_view">* 또한 그것은 충전 시간을 기대 계산합니다. 누구의 전화 그들은 더에 대한 충전 시간을 예상 할 수 있도록 칩을 갖는되지 않은 클라이언트를 용이하게하기 위해 추가 된이 기능을 추가이며 암페어 미터 app.it 만 포함된다
+</string>
+    <string name="chip_message3_text_view">* 이 응용 프로그램을 사용하여 어떤 문제가 발견하면 이메일을 통해 우리를 알려주십시오</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">그래</string>
+
+
+    <string name="connectd">연결</string>
+    <string name="not_charging">충전되지 않음</string>
+    <string name="defult_plug_type">알 수 없는</string>
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">알 수 없는</string>
+    <string name="dead_health_String">죽은</string>
+    <string name="good_health_String">좋은</string>
+    <string name="over_heat_health_String">열 이상</string>
+    <string name="over_voltage_health_String">과전압</string>
+    <string name="faliur_health_String">실패</string>
+    <string name="not_charging_status">충전되지 않음</string>
+    <string name="full_status">완전한</string>
+    <string name="discharge_status">방전</string>
+
+    <string name="defult_status">알 수 없는</string>
+    <string name="charging_status">충전</string>
+
+
+    <string name="hour">시간 </string>
+    <string name="mint"> 의사록</string>
+
+    <string name="setting_language_main" >언어</string>
+    <string name="setting_language_messae" >장치 언어를 무시하고 다른 사용</string>
+    <string name="more_apps">더 많은 애플 리케이션</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+
+    <string name="temperature_heading_setting">온도</string>
+    <string name="temperature_detaile_setting">온도 단위는 섭씨 (C) 또는 화씨 (F) 중 하나를 선택하십시오.</string>
+    <string name="charging_time_heading_setting">Charing 시간 화면</string>
+    <string name="charging_ime_detaile_setting">예상 충전 시간 표시 화면</string>
+    <string name="Alert_bt_setting">알림 설정</string>
+    <string name="Alert_custom_tv_setting">알림 설정 사용자 정의</string>
+    <string name="translater_heading_setting">번역가</string>
+    <string name="translater_detaile_setting">앱 번역에 도움을 준 사람들..</string>
+    <string name="alarm_full_battery_heading_setting">배터리가 가득 차면 경고 표시</string>
+    <string name="alarm_low_battery_heading_setting">배터리가 부족할 때 알림 표시</string>
+    <string name="alarm_high_temp_heading_setting">배터리 온도가 높으면 알림 표시</string>
+    <string name="Alert_custom_full_battery_tv_setting">배터리 풀 레벨</string>
+    <string name="Alert_custom_low_battery_tv_setting">배터리 잔량 부족</string>
+    <string name="Alert_custom__high_custom_tv_setting">배터리 온도</string>
+    <string name="battery_level_for_notification">배터리 잔량</string>
+    <string name="Alert_custom__full_level">배터리가 가득 참</string>
+    <string name="Alert_custom__low_level">배터리 부족</string>
+    <string name="Alert_custom__high_temp">배터리가 뜨겁다.</string>
+    <string name="dissconneced">연결되지 않음</string>
+    <string name="notification_heading_setting">청구되지 않은 경우 숨기기</string>
+    <string name="notification_detaile_setting">충전하지 않을 경우 "최소"우선 순위 메시지 사용</string>
+    <string name="permanent_notification_heading_setting">공고</string>
+    <string name="permanent_notification_detaile_setting">영구 메시지 사용 / 사용 중지</string>
+    <string name="toast_hide_notificaion_message">청구서에 통지가 표시됩니다.</string>
+    <!-- new line-->
+    <string name="remove_ads">광고를 제거하다</string>
+    <string name="action_alert_settings">알림 설정</string>
+    <string name="flowingcurrent_text_view">흐르는 전류</string>
+
+</resources>

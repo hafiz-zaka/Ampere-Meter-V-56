@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/layout_inner"
+        android:elevation="4dp"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ar"
+            android:elevation="6dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/flag_image_view"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="united kingdom"
+android:id="@+id/country_name_language_list_view_item"
+            android:layout_toRightOf="@+id/flag_image_view"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:textAppearance="?attr/textAppearanceLargePopupMenu"/>
+    </RelativeLayout>
+
+</LinearLayout>

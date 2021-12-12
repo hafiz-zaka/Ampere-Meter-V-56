@@ -1,0 +1,127 @@
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+
+    <string name="app_name">Ampere Meter</string>
+    <string name="action_settings">Ρυθμίσεις</string>
+    <string name="action_pro">Αγοράστε την Pro Έκδοση</string>
+    <string name="action_Rate">Βαθμολογείστε μας</string>
+    <string name="action_share">Μοιραστείτε</string>
+
+    <string name="level_text_view">Επίπεδο Φόρτισης</string>
+    <string name="remaning_text_view">Υπόλοιπο</string>
+    <string name="capacity_text_view">Χωρητικότητα</string>
+    <string name="technonlogy_text_view">Τεχνολογία</string>
+    <string name="healt_text_view">Υγεία</string>
+    <string name="temperature_text_view">Θεμοκρασία</string>
+    <string name="voltage_text_view">Τάση</string>
+    <string name="charger_text_view">Φορτιστής</string>
+    <string name="model_text_view">Μοντέλο</string>
+    <string name="status_text_view">Κατάσταση</string>
+    <string name="android_version_text_view">Έκδοση Android</string>
+    <string name="build_id_text_view">Build ID</string>
+    <string name="dialog_estimate_text_view">Estimated Charging</string>
+    <string name="dialog_time_text_view">Χρόνος</string>
+    <string name="setting_message1_text_view">Ανοίξτε για σύνδεση</string>
+    <string name="setting_message2_text_view">Αυτόματη εκκίνηση της εφαρμογής όταν συνδέετε τον φορτιστή</string>
+
+    <string name="message_text_view">Παρακαλώ πιέστε το κουμπί connected για περισσότερες πληροφορίες</string>
+    <string name="chip_message1_text_view">* Λυπάμαι αλλά η συσκευή σας δεν έχει chip που να μετράει το ρεύμα. Έτσι η εφαρμογή μπορεί να μετρήσει το ρεύμα φόρτισης μόνο προγραμματιστικά. Έτσι υπολογίζεται κατά προσέγγιση το ρεύμα με βάση τις πληροφορίες από τον USB ή AC φορτιστή που δίνουν μόνο πληροφορίες κατά προσέγγιση για το ρεύμα που περνάει από το καλώδιο φόρτισης</string>
+    <string name="chip_message2_text_view">* Επιπλέον υπολογίζει το υπολειπόμενο χρόνο φόρτισης. Αυτή η πρόσθετη δυνατότητα δίδεται μόνο μέσω της εφαρμογής Ampere Meter. Έχει προστεθεί για να βοηθήσει τους χρήστες που το τηλέφωνό τους δεν έχει ενσωμετωμένο chip μέτρησης, ώστε να μπορούν να βλέπουν το χρόνο φόρτισης.</string>
+    <string name="chip_message3_text_view">* Αν παρατηρήσετε κάποιο πρόβλημα χρησιμοποιώντας αυτή την εφαρμογή, παρακαλώ επικοινωνήστε μαζί μας μεέσω email</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">ΟΚ</string>
+
+
+    <string name="connectd">Συνδεμένο</string>
+    <string name="not_charging">Δεν φορτίζει</string>
+    <string name="defult_plug_type">Άγωστο</string>
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">Άγνωστο</string>
+    <string name="dead_health_String">Νεκρή</string>
+    <string name="good_health_String">Καλή</string>
+    <string name="over_heat_health_String">Υπερθέρμανση</string>
+    <string name="over_voltage_health_String">Υπέρταση</string>
+    <string name="faliur_health_String">Βλάβη</string>
+    <string name="not_charging_status">Δεν Φορτίζει</string>
+    <string name="full_status">Πλήρης</string>
+    <string name="discharge_status">Αποφορτίζει</string>
+    <string name="Alert_custom__high_custom_tv_setting">Shosh Aller vhen μπαταρίες TCE κακό
+</string>
+
+    <string name="defult_status">Άγνωστο</string>
+    <string name="charging_status">Φορτίζει</string>
+
+
+    <string name="hour">ώρες και </string>
+    <string name="mint"> λεπτά</string>
+
+    <string name="setting_language_main">Γλώσσα</string>
+    <string name="setting_language_messae">Αγνόησε τη γλώσσα της συσκευής και χρησημοποίησε άλλη</string>
+    <string name="more_apps">Περισσότερες εφαρμογές</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+    <string name="temperature_heading_setting">θερμοκρασία σε</string>
+    <string name="temperature_detaile_setting">Η μονάδα της θερμοκρασίας επιλέξετε είτε σε βαθμούς Κελσίου (C) ή Φαρενάιτ (F)</string>
+    <string name="charging_time_heading_setting">οθόνη του χρόνου Charing</string>
+    <string name="charging_ime_detaile_setting">Εμφάνιση φόρτισης οθόνη του χρόνου Κοστολόγησης</string>
+    <string name="Alert_bt_setting">Ρύθμιση ειδοποίησης</string>
+    <string name="Alert_custom_tv_setting">Προσαρμόστε ειδοποίησης Ρύθμιση</string>
+    <string name="translater_heading_setting">μεταφραστές</string>
+    <string name="translater_detaile_setting">Οι άνθρωποι που βοήθησαν μεταφράσει το app.</string>
+    <string name="alarm_full_battery_heading_setting">Εμφάνιση ειδοποίηση όταν η μπαταρία είναι γεμάτη</string>
+    <string name="alarm_low_battery_heading_setting">Εμφάνιση ειδοποίησης όταν η μπαταρία είναι χαμηλή</string>
+    <string name="alarm_high_temp_heading_setting">Εμφάνιση ειδοποίησης όταν η θερμοκρασία της μπαταρίας είναι υψηλή</string>
+    <string name="Alert_custom_full_battery_tv_setting">πλήρους στάθμης μπαταρίας</string>
+    <string name="Alert_custom_low_battery_tv_setting">θερμοκρασία της μπαταρίας</string>
+    <string name="battery_level_for_notification">το επίπεδο της μπαταρίας</string>
+    <string name="Alert_custom__full_level">μπαταρία πλήρης</string>
+    <string name="Alert_custom__low_level">Χαμηλή μπαταρία</string>
+    <string name="Alert_custom__high_temp">μπαταρία ζεστό</string>
+    <string name="dissconneced">Ασχετος</string>
+    <string name="notification_heading_setting">Απόκρυψη εάν δεν χρεώνονται</string>
+    <string name="notification_detaile_setting">Χρησιμοποιήστε το μήνυμα προτεραιότητα "ελάχιστο", αν δεν φορτίζει</string>
+    <string name="permanent_notification_heading_setting">Γνωστοποίηση</string>
+    <string name="permanent_notification_detaile_setting">Ενεργοποίηση / απενεργοποίηση της μόνιμης μήνυμα</string>
+    <string name="toast_hide_notificaion_message">Ειδοποίηση θα εμφανίζεται στο φορτίο</string>
+    <!-- new line-->
+    <string name="remove_ads">Αφαίρεσε τις διαφημίσεις</string>
+    <string name="action_alert_settings">ρυθμίσεις ειδοποίησης</string>
+    <string name="flowingcurrent_text_view">ρέει τρέχον</string>
+
+</resources>

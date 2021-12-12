@@ -1,0 +1,127 @@
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+
+    <string name="app_name">Ampere Meter</string>
+    <string name="action_settings">ตั้งค่า</string>
+    <string name="action_pro">ซื้อรุ่นโปร</string>
+    <string name="action_Rate">ให้คะแนนเรา</string>
+    <string name="action_share">แชร์</string>
+
+    <string name="level_text_view">ระดับ</string>
+    <string name="remaning_text_view">เวลาที่เหลือ</string>
+    <string name="capacity_text_view">ความจุ</string>
+    <string name="technonlogy_text_view">เทคโนโลยี</string>
+    <string name="healt_text_view">ความสมบูรณ์</string>
+    <string name="temperature_text_view">อุณหภูมิ</string>
+    <string name="voltage_text_view">แรงดันไฟ</string>
+    <string name="charger_text_view">ที่ชาร์จ</string>
+    <string name="model_text_view">รุ่นอุปกรณ์</string>
+    <string name="status_text_view">สถานะ</string>
+    <string name="android_version_text_view">รุ่น Android</string>
+    <string name="build_id_text_view">รหัสบิลด์</string>
+    <string name="dialog_estimate_text_view">เวลาชาร์จโดยประมาณ</string>
+    <string name="dialog_time_text_view">เวลา</string>
+    <string name="setting_message1_text_view">เปิดเมื่อเชื่อมต่อ</string>
+    <string name="setting_message2_text_view">แอปจะเริ่มโดยอัตโนมัติเมื่อคุณเชื่อมต่อที่ชาร์จ</string>
+
+    <string name="message_text_view">กรุณากดที่ปุ่มเชื่อมต่อแล้วเพื่อดูข้อมูลเพิ่มเติม</string>
+    <string name="chip_message1_text_view">* ขออภัย อุปกรณ์ของคุณไม่มีชิพที่ใช้ในการวัดกระแส  นั่นทำให้ไม่มีแอปใดสามารถวัดกระแสที่ไหลผ่านโทรศัพท์ของคุณได้ เมื่อไม่มีชิพเราใช้วิธีประมาณแระแสจากรูปแบบการเชื่อมต่อว่าชาร์จผ่าน USB หรือ AC ซึ่งจะให้เพียงข้อมูลโดยประมาณของกระแสที่ไหลผ่าน</string>
+    <string name="chip_message2_text_view">* ยิ่งไปกว่านั้น คุณสมบัติการคำนวณระยะเวลาโดยประมาณในการชาร์จเป็นคุณสมบัติเพิ่มเติมซึ่งไม่เกี่ยวข้องกับแอป Ampere Meter แต่เป็นคุณสมบัติของอุปกรณ์ที่ไม่มีชิพซึ่งจะทำให้สามารถทราบระยะเวลาชาร์จโดยประมาณได้</string>
+    <string name="chip_message3_text_view">* หากคุณพบปัญหาเกี่ยวกับการใช้งาน กรุณาแจ้งให้เราทราบผ่านอีเมล</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">ตกลง</string>
+
+
+    <string name="connectd">เชื่อมต่อแล้ว</string>
+    <string name="not_charging">ไม่ได้ชาร์จ</string>
+    <string name="defult_plug_type">ไม่ทราบ</string>
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">ไม่ทราบ</string>
+    <string name="dead_health_String">เสียแล้ว</string>
+    <string name="good_health_String">ดี</string>
+    <string name="over_heat_health_String">ความร้อนเกิน</string>
+    <string name="over_voltage_health_String">แรงดันไฟเกิน</string>
+    <string name="faliur_health_String">ล้มเหลว</string>
+    <string name="not_charging_status">ไม่ได้ชาร์จ</string>
+    <string name="full_status">เต็ม</string>
+    <string name="discharge_status">กำลังคลายประจุ</string>
+
+    <string name="defult_status">ไม่ทราบ</string>
+    <string name="charging_status">กำลังชาร์จ</string>
+
+
+    <string name="hour">ชั่วโมงและ </string>
+    <string name="mint"> นาที</string>
+
+    <string name="setting_language_main">ภาษา</string>
+    <string name="setting_language_messae">ไม่สนใจภาษาของอุปกรณ์และใช้ภาษาอื่นแทน</string>
+    <string name="more_apps">แอปอื่นๆ</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+
+    <string name="temperature_heading_setting">อุณหภูมิใน</string>
+    <string name="temperature_detaile_setting">หน่วยของอุณหภูมิเลือกอย่างใดอย่างเซลเซียส (C) หรือฟาเรนไฮต์ (F)</string>
+    <string name="charging_time_heading_setting">หน้าจอเวลา Charing</string>
+    <string name="charging_ime_detaile_setting">แสดงประมาณชาร์จหน้าจอเวลา</string>
+    <string name="Alert_bt_setting">การตั้งค่าการแจ้งเตือน</string>
+    <string name="Alert_custom_tv_setting">ปรับแต่งการตั้งค่าการแจ้งเตือน</string>
+    <string name="translater_heading_setting">แปล</string>
+    <string name="translater_detaile_setting">คนที่ช่วยแปล app</string>
+    <string name="alarm_full_battery_heading_setting">แสดงการแจ้งเตือนเมื่อแบตเตอรี่เต็ม</string>
+    <string name="alarm_low_battery_heading_setting">แสดงการแจ้งเตือนเมื่อแบตเตอรี่อยู่ในระดับต่ำ</string>
+    <string name="alarm_high_temp_heading_setting">แสดงการแจ้งเตือนเมื่ออุณหภูมิของแบตเตอรี่สูง</string>
+    <string name="Alert_custom_full_battery_tv_setting">ระดับแบตเตอรี่เต็ม</string>
+    <string name="Alert_custom_low_battery_tv_setting">ระดับต่ำแบตเตอรี่</string>
+    <string name="Alert_custom__high_custom_tv_setting">อุณหภูมิของแบตเตอรี่</string>
+    <string name="battery_level_for_notification">ระดับแบตเตอรี่</string>
+    <string name="Alert_custom__full_level">แบตเตอรี่เต็ม</string>
+    <string name="Alert_custom__low_level">แบตเตอรี่ต่ำ</string>
+    <string name="Alert_custom__high_temp">แบตเตอรี่ที่ร้อน</string>
+    <string name="dissconneced">ไม่เกี่ยวเนื่องกัน</string>
+    <string name="notification_heading_setting">ซ่อนถ้าไม่คิดค่าบริการ</string>
+    <string name="notification_detaile_setting">ใช้ "ขั้นต่ำ" ข้อความลำดับความสำคัญถ้าไม่ชาร์จ</string>
+    <string name="permanent_notification_heading_setting">การแจ้งเตือน</string>
+    <string name="permanent_notification_detaile_setting">เปิด / ปิดข้อความถาวร</string>
+    <string name="toast_hide_notificaion_message">การแจ้งเตือนจะแสดงบนค่าใช้จ่าย</string>
+    <!-- new line-->
+    <string name="remove_ads">ลบโฆษณา</string>
+    <string name="action_alert_settings">ตั้งค่าการแจ้งเตือน</string>
+    <string name="flowingcurrent_text_view">ไหลปัจจุบัน</string>
+
+</resources>

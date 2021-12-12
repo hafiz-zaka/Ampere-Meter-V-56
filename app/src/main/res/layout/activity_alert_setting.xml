@@ -1,0 +1,319 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    android:background="@color/layout_background"
+    android:layout_height="match_parent"
+    >
+    <include layout="@layout/tool_bar"
+        android:id="@+id/tool_bar"
+        ></include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/layout_inner"
+        android:layout_width="match_parent"
+        android:elevation="4dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+
+        >
+        <TextView
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="8"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="?attr/textAppearanceLargePopupMenu"
+        android:id="@+id/alert_full_battery_heading_text_view"
+        android:text="@string/alarm_full_battery_heading_setting"/>
+        <CheckBox
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:checked="false"
+        android:id="@+id/alert_full_battery_checkbox"
+        />
+        </LinearLayout>
+<!--           <RelativeLayout-->
+<!--               android:orientation="horizontal"-->
+<!--               android:id="@+id/ADD_BTN_LAYOUT"-->
+<!--               android:layout_width="match_parent"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               android:layout_marginTop="@dimen/activity_horizontal_margin"-->
+<!--               android:layout_marginLeft="@dimen/activity_horizontal_margin"-->
+<!--               android:layout_marginRight="@dimen/activity_horizontal_margin"-->
+<!--               android:elevation="@dimen/elevation_size"-->
+<!--               android:background="@color/layout_inner">-->
+
+<!--               <TextView-->
+<!--                   android:layout_width="match_parent"-->
+<!--                   android:layout_height="wrap_content"-->
+<!--                   android:layout_marginTop="@dimen/tv_margin"-->
+<!--                   android:layout_marginBottom="@dimen/tv_margin"-->
+<!--                   android:layout_weight="5"-->
+<!--                   android:gravity="center"-->
+<!--                   android:text="Download Workout at Home"-->
+<!--                   android:textColor="@color/tv_information_color"-->
+<!--                   android:textSize="20sp" />-->
+
+<!--               <TextView-->
+<!--                   android:padding="2dp"-->
+<!--                   android:layout_width="wrap_content"-->
+<!--                   android:layout_height="wrap_content"-->
+<!--                   android:layout_alignParentRight="true"-->
+<!--                   android:layout_weight="1"-->
+<!--                   android:text="AD"-->
+<!--                   android:layout_margin="3dp"-->
+<!--                   android:textColor="@color/layout_inner"-->
+<!--                   android:textSize="15sp"-->
+<!--                   android:background="@color/tv_information_color"-->
+<!--                   android:textStyle="bold" />-->
+<!--           </RelativeLayout>-->
+           <com.google.android.gms.ads.AdView
+               android:layout_marginTop="@dimen/activity_horizontal_margin"
+               android:layout_gravity="center"
+               xmlns:ads="http://schemas.android.com/apk/res-auto"
+               android:id="@+id/adView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:layout_alignParentBottom="true"
+               ads:adSize="MEDIUM_RECTANGLE"
+               android:visibility="gone"
+               ads:adUnitId="@string/admobe_banner_alert_setting"></com.google.android.gms.ads.AdView>
+           <LinearLayout
+               android:layout_marginLeft="16dp"
+               android:layout_marginRight="16dp"
+               android:layout_marginTop="16dp"
+               android:background="@color/layout_inner"
+               android:layout_width="match_parent"
+               android:elevation="4dp"
+               android:layout_marginBottom="10dp"
+               android:layout_height="wrap_content"
+
+               >
+               <TextView
+                   android:padding="5dp"
+                   android:layout_margin="10dp"
+                   android:layout_width="0dp"
+                   android:layout_weight="8"
+                   android:layout_marginLeft="15dp"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentLeft="true"
+                   android:textAppearance="?attr/textAppearanceLargePopupMenu"
+                   android:id="@+id/alert_low_battery_heading_text_view"
+                   android:text="@string/alarm_low_battery_heading_setting"/>
+               <CheckBox
+                   android:layout_width="0dp"
+                   android:layout_weight="2"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="15dp"
+                   android:checked="false"
+                   android:id="@+id/alert_low_battery_checkbox"
+                   />
+           </LinearLayout>
+        <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/layout_inner"
+        android:layout_width="match_parent"
+        android:elevation="4dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+
+        >
+        <TextView
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="8"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="?attr/textAppearanceLargePopupMenu"
+        android:id="@+id/alert_high_temp_heading_text_view"
+        android:text="@string/alarm_high_temp_heading_setting"/>
+        <CheckBox
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:checked="false"
+        android:id="@+id/alert_high_temp_checkbox"
+        />
+        </LinearLayout>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="16dp"
+               android:textColor="@color/colorPrimary"
+               android:text="@string/Alert_custom_tv_setting"
+               />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/layout_inner"
+            android:elevation="4dp"
+
+            android:id="@+id/alert_full_battery_custom_linear_layout">
+
+            <LinearLayout
+                android:background="?attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Alert_custom_full_battery_tv_setting"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textAppearance="?attr/textAppearanceLargePopupMenu"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100%"
+                android:id="@+id/full_battery_level_tv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                />
+                </LinearLayout>
+        </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_marginLeft="16dp"
+               android:layout_marginRight="16dp"
+               android:layout_marginTop="16dp"
+               android:background="@color/layout_inner"
+               android:elevation="4dp"
+
+               android:id="@+id/alert_low_battery_custom_linear_layout">
+               <LinearLayout
+                   android:background="?attr/selectableItemBackground"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+
+                   >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/Alert_custom_low_battery_tv_setting"
+
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="5dp"
+                   android:textAppearance="?attr/textAppearanceLargePopupMenu"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="15%"
+                   android:id="@+id/low_battery_level_tv"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="5dp"
+                   />
+                   </LinearLayout>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_marginLeft="16dp"
+               android:layout_marginRight="16dp"
+               android:layout_marginTop="16dp"
+               android:layout_marginBottom="16dp"
+               android:background="@color/layout_inner"
+               android:elevation="4dp"
+
+               android:id="@+id/alert_high_temp_battery_custom_linear_layout">
+               <LinearLayout
+                   android:background="?attr/selectableItemBackground"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical"
+
+                   >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/Alert_custom__high_custom_tv_setting"
+
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="5dp"
+                   android:textAppearance="?attr/textAppearanceLargePopupMenu"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="60 C"
+                   android:id="@+id/hightemp_battery_level_tv"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="5dp"
+                   />
+                   </LinearLayout>
+
+           </LinearLayout>
+<!--           <RelativeLayout-->
+<!--               android:orientation="horizontal"-->
+<!--               android:id="@+id/ADD_BTN_LAYOUT"-->
+<!--               android:layout_width="match_parent"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               android:layout_marginBottom="@dimen/tv_margin"-->
+<!--               android:layout_marginLeft="@dimen/tv_margin"-->
+<!--               android:layout_margin="@dimen/tv_margin"-->
+<!--               android:elevation="@dimen/elevation_size"-->
+<!--               android:background="@color/layout_inner">-->
+
+<!--               <TextView-->
+<!--                   android:layout_width="match_parent"-->
+<!--                   android:layout_weight="5"-->
+<!--                   android:layout_height="wrap_content"-->
+<!--                   android:textAllCaps="true"-->
+<!--                   android:layout_marginLeft="16dp"-->
+<!--                   android:layout_marginRight="16dp"-->
+<!--                   android:text="Download play services"-->
+<!--                   android:gravity="center"-->
+<!--                   android:layout_marginTop="@dimen/tv_margin"-->
+<!--                   android:layout_marginBottom="@dimen/tv_margin"-->
+<!--                   android:textColor="@color/tv_information_color"-->
+<!--                   android:textSize="25sp"-->
+<!--                   />-->
+
+<!--                </RelativeLayout>-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

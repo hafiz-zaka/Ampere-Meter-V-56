@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+    <string name="app_name">Ampere Meter</string>
+    <string name="action_settings">Indstillinger</string>
+    <string name="action_pro">Køb Pro Udgave</string>
+    <string name="action_Rate">Bedøm</string>
+    <string name="action_share">Del</string>
+
+    <string name="level_text_view">Niveau</string>
+    <string name="remaning_text_view">Resterende</string>
+    <string name="capacity_text_view">Kapacitet</string>
+    <string name="technonlogy_text_view">Teknologi</string>
+    <string name="healt_text_view">Helbred</string>
+    <string name="temperature_text_view">Temperatur</string>
+    <string name="voltage_text_view">Spænding</string>
+    <string name="charger_text_view">Lader</string>
+    <string name="model_text_view">Model</string>
+    <string name="status_text_view">Status</string>
+    <string name="android_version_text_view">Android version</string>
+    <string name="build_id_text_view">Build ID</string>
+    <string name="dialog_estimate_text_view">Beregnet opladning</string>
+    <string name="dialog_time_text_view">Tid</string>
+    <string name="setting_message1_text_view">Åbn med lader</string>
+    <string name="setting_message2_text_view">Programmet starter automatisk når laderen forbindes</string>
+
+    <string name="message_text_view">Tryk på knappen for yderligere information</string>
+    <string name="chip_message1_text_view">* Beklager din enhed har ikke en sensor der måler strømstyrke. Der er ingen app der kan aflæse på enheden uden den sensor. Da den mangler, beregnes størmstyrken ud fra om det er en USB eller AC lader, hvilket kun giver en tilnærmet værdi.</string>
+    <string name="chip_message2_text_view">* Desuden beregnes en forventet ladetid. Dette er en funktion i Ampere Meter programmet for at kunne hjælpe de kunder med en enhed uden denne sensor så de kan få en tilnærmet forventet ladetid.</string>
+    <string name="chip_message3_text_view">* Hvis du støder på nogle problemer med programmet, så skriv os en email.</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">ok</string>
+
+
+    <string name="connectd">Forbundet</string>
+    <string name="not_charging">Lader ikke</string>
+    <string name="defult_plug_type">Ukendt</string>
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">Ukendt</string>
+    <string name="dead_health_String">Død</string>
+    <string name="good_health_String">God</string>
+    <string name="over_heat_health_String">For Varm</string>
+    <string name="over_voltage_health_String">For Høj Spænding</string>
+    <string name="faliur_health_String">Fejl</string>
+    <string name="not_charging_status">Lader ikke</string>
+    <string name="full_status">Fuld</string>
+    <string name="discharge_status">Aflader</string>
+
+    <string name="defult_status">Ukendt</string>
+    <string name="charging_status">Lader</string>
+
+
+    <string name="hour">timer og </string>
+    <string name="mint"> minutter</string>
+
+    <string name="setting_language_main">Sprog</string>
+    <string name="setting_language_messae">Ignorer enhedens sprog og brug et andet</string>
+    <string name="more_apps">Flere apps</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+    </string-array>
+    <string name="temperature_heading_setting">temperatur i</string>
+    <string name="temperature_detaile_setting">Enheden for temperatur vælge enten celsius (C) eller Fahrenheit (F)</string>
+    <string name="charging_time_heading_setting">tid skærm Charing</string>
+    <string name="charging_ime_detaile_setting">Vis estimering ladetid skærm</string>
+    <string name="Alert_bt_setting">Alert Setting</string>
+    <string name="Alert_custom_tv_setting">Tilpas Alert Setting</string>
+    <string name="translater_heading_setting">Oversættere</string>
+    <string name="translater_detaile_setting">De mennesker, der hjalp med at oversætte apShp.</string>
+    <string name="alarm_full_battery_heading_setting">Vis besked, når batteriet er fuldt</string>
+    <string name="alarm_low_battery_heading_setting">Vis besked, når batteriet er lavt</string>
+    <string name="alarm_high_temp_heading_setting">Vis advarsel, når batteriets temperatur er høj</string>
+    <string name="Alert_custom_full_battery_tv_setting">Batteri fuldt niveau</string>
+    <string name="Alert_custom_low_battery_tv_setting">Batteri lavt niveau</string>
+    <string name="Alert_custom__high_custom_tv_setting">Batteri temperatur</string>
+    <string name="battery_level_for_notification">Batteriniveau</string>
+    <string name="Alert_custom__full_level">Batteri fuldt</string>
+    <string name="Alert_custom__low_level">Lavt batteri</string>
+    <string name="Alert_custom__high_temp">Batteri hot</string>
+    <string name="dissconneced">usammenhængende</string>
+    <string name="notification_heading_setting">Skjul hvis ikke opladet</string>
+    <string name="notification_detaile_setting">Brug "minimum" prioritet meddelelse, hvis oplader ikke</string>
+    <string name="permanent_notification_heading_setting">Notifikation</string>
+    <string name="permanent_notification_detaile_setting">Tænd / sluk den permanente besked</string>
+    <string name="toast_hide_notificaion_message">Meddelelse vil blive vist på afgiften</string>
+    <!-- new line-->
+    <string name="remove_ads">Fjern annoncer</string>
+    <string name="action_alert_settings">Alert indstillinger</string>
+    <string name="flowingcurrent_text_view">Flowing strøm</string>
+
+</resources>

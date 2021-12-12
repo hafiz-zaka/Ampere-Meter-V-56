@@ -1,0 +1,126 @@
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+
+    <string name="app_name">Ампер Meter</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_pro">Купи Pro Version</string>
+    <string name="action_Rate">Оцени ни</string>
+    <string name="action_share">Дял</string>
+
+    <string name="level_text_view">ниво</string>
+    <string name="remaning_text_view">оставащ</string>
+    <string name="capacity_text_view">Капацитет</string>
+    <string name="technonlogy_text_view">технология</string>
+    <string name="healt_text_view">Здраве</string>
+    <string name="temperature_text_view">температура</string>
+    <string name="voltage_text_view">Волтаж</string>
+    <string name="charger_text_view">зарядно устройство</string>
+    <string name="model_text_view">Модел</string>
+    <string name="status_text_view">Статус</string>
+    <string name="android_version_text_view">Android версия</string>
+    <string name="build_id_text_view">Изграждане ID</string>
+    <string name="dialog_estimate_text_view">Очаквано Зареждането</string>
+    <string name="dialog_time_text_view">път</string>
+    <string name="setting_message1_text_view">Open за да се свържете</string>
+    <string name="setting_message2_text_view">Приложението автоматично започва, когато включите зарядното</string>
+
+    <string name="message_text_view">Моля, натиснете върху бутона, свързан за повече информация</string>
+    <string name="chip_message1_text_view">* За съжаление, вашият телефон не разполага с сензор, който измерва електрически ток. Необходима е сензор за тази програма за измерване на потока на ток. Поради това, при липсата на този сензор, токът се изчислява на базата на USB и AC информация зарядно устройство, което предоставя само приблизителни</string>
+    <string name="chip_message2_text_view">* Нещо повече, той изчислява очакваното време на зареждане. Тази функция е допълнително и изключителната до приложението на Ампер Meter. Това беше включен за да улесни потребителите, без чипове, така че те могат да знаят за очакваното време на зареждане.</string>
+    <string name="chip_message3_text_view">*  Ако някоя беда произтича от използването на това приложение, моля да ни уведомите по електронната поща.</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">Добре</string>
+
+
+    <string name="connectd">свързан</string>
+    <string name="not_charging">Не се зарежда</string>
+    <string name="defult_plug_type">неизвестен</string>
+    <string name="AC_plug_type">променлив ток</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">неизвестен</string>
+    <string name="dead_health_String">мъртъв</string>
+    <string name="good_health_String">добре</string>
+    <string name="over_heat_health_String">Над Heat</string>
+    <string name="over_voltage_health_String">Над Voltage</string>
+    <string name="faliur_health_String">неуспех</string>
+    <string name="not_charging_status">Не се зарежда</string>
+    <string name="full_status">пълен</string>
+    <string name="discharge_status">Разтоварване</string>
+
+    <string name="defult_status">неизвестен</string>
+    <string name="charging_status">зареждане</string>
+
+
+    <string name="hour">часа и</string>
+    <string name="mint"> минути</string>
+
+    <string name="setting_language_main" >език</string>
+    <string name="setting_language_messae" >Игнориране на езика на устройството и да използвате други</string>
+    <string name="more_apps">Още приложения</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+    <string name="temperature_heading_setting">Температура в</string>
+    <string name="temperature_detaile_setting">Единицата за температура избере или по Целзий (C) или по Фаренхайт (F)</string>
+    <string name="charging_time_heading_setting">екран време Charing</string>
+    <string name="charging_ime_detaile_setting">Покажи оценяващата време за зареждане на екрана</string>
+    <string name="Alert_bt_setting">Setting Alert</string>
+    <string name="Alert_custom_tv_setting">Персонализирайте Alert Setting</string>
+    <string name="translater_heading_setting">преводачи</string>
+    <string name="translater_detaile_setting">Хората, които помогнаха за превод на приложението.</string>
+    <string name="alarm_full_battery_heading_setting">Покажи сигнал, когато батерията е напълно заредена</string>
+    <string name="alarm_low_battery_heading_setting">Покажи сигнал, когато батерията е изтощена</string>
+    <string name="alarm_high_temp_heading_setting">Покажи сигнал, когато температурата на батерията е висока</string>
+    <string name="Alert_custom_full_battery_tv_setting">Батерия пълно ниво</string>
+    <string name="Alert_custom_low_battery_tv_setting">Батерия ниско ниво</string>
+    <string name="Alert_custom__high_custom_tv_setting">температура на батерията</string>
+    <string name="battery_level_for_notification">ниво на батерията</string>
+    <string name="Alert_custom__full_level">батерията е заредена</string>
+    <string name="Alert_custom__low_level">изтощена батерия</string>
+    <string name="Alert_custom__high_temp">батерия горещо</string>
+    <string name="dissconneced">несвързан</string>
+    <string name="notification_heading_setting">Скриване ако не зарежда</string>
+    <string name="notification_detaile_setting">Използвайте "минимален" приоритетно уведомление, ако не зарежда</string>
+    <string name="permanent_notification_heading_setting">нотификация</string>
+    <string name="permanent_notification_detaile_setting">Включване / изключване на постоянен уведомлението</string>
+    <string name="toast_hide_notificaion_message">Уведомление ще покаже на зареждане</string>
+    <!-- new line-->
+    <string name="remove_ads">Премахни рекламите</string>
+    <string name="action_alert_settings">настройки сигнализиране</string>
+    <string name="flowingcurrent_text_view">Преливащ ток</string>
+
+</resources>

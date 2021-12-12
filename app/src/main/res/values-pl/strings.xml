@@ -1,0 +1,128 @@
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+
+    <string name="app_name">Ampere Meter</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="action_pro">Kup wersję Pro</string>
+    <string name="action_Rate">Oceń nas</string>
+    <string name="action_share">Podziel się</string>
+
+    <string name="level_text_view">Poziom</string>
+    <string name="remaning_text_view">Pozostało</string>
+    <string name="capacity_text_view">Pojemność</string>
+    <string name="technonlogy_text_view">Technologia</string>
+    <string name="healt_text_view">Stan</string>
+    <string name="temperature_text_view">Temperatura</string>
+    <string name="voltage_text_view">Napięcie</string>
+    <string name="charger_text_view">Ładowanie</string>
+    <string name="model_text_view">Model</string>
+    <string name="status_text_view">Status</string>
+    <string name="android_version_text_view">Wersja systemu</string>
+    <string name="build_id_text_view">ID wersji</string>
+    <string name="dialog_estimate_text_view">Ładowanie</string>
+    <string name="dialog_time_text_view">czas</string>
+    <string name="setting_message1_text_view">Podłącz by otworzyć</string>
+    <string name="setting_message2_text_view">Aplikacja startuje automatycznie po podłączeniu ładowarki</string>
+
+    <string name="message_text_view">Wciśnij przycisk "połączono" by uzyskać więcej informacji</string>
+    <string name="chip_message1_text_view">* Niestety, z powodu braku czujnika aplikacja nie może mierzyć dokładnego przepływu prądu w telefonie. bierzący poziom szacowany jest na podstawie danych z USB oraz ładowarki, które dają tylko przybliżony poziom prądu płynącego przez przewód</string>
+    <string name="chip_message2_text_view">* Ponadto mierzony jest przewidywany czas ładowania, jest to funkcja dodatkowa dostępna tylko w Ampere Meter. Została dodana dla użytkowników których telefony nie posiadają czujnika, żeby pomimo to mogli otrzymać przewidywany czas ładowania</string>
+    <string name="chip_message3_text_view">* Jeżeli napotkasz jakieś problemy związane z aplikacją, skontaktuj się z nami drogą mailową.</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">ok</string>
+
+
+    <string name="connectd">Połączono</string>
+    <string name="not_charging">Nie ładuje</string>
+    <string name="defult_plug_type">Nieznany</string>
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">\Nieznany</string>
+    <string name="dead_health_String">Martwy</string>
+    <string name="good_health_String">Dobry</string>
+    <string name="alarm_low_battery_heading_setting">Shosh Aller vhen baterie TCE złe</string>
+
+    <string name="over_heat_health_String">Przegrzanie</string>
+    <string name="over_voltage_health_String">Za wysokie napięcie</string>
+    <string name="faliur_health_String">Błąd</string>
+    <string name="not_charging_status">Nie ładuje</string>
+    <string name="full_status">Pełna</string>
+    <string name="discharge_status">Rozładowywanie</string>
+
+    <string name="defult_status">Nieznane</string>
+    <string name="charging_status">Ładowanie</string>
+
+
+    <string name="hour">godzin i </string>
+    <string name="mint"> minut</string>
+
+    <string name="setting_language_main">Język</string>
+    <string name="setting_language_messae">Zignoruj język systemowy i użyj innego</string>
+    <string name="more_apps">Więcej aplikacji</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+
+    <string name="temperature_heading_setting">Temperatura w</string>
+    <string name="temperature_detaile_setting">Jednostką temperatury wybrać albo Celsjusza (C) lub Fahrenheita (F)</string>
+    <string name="charging_time_heading_setting">Ekran czasu Charing</string>
+    <string name="charging_ime_detaile_setting">Pokaż ekran ładowania czasu Szacowanie</string>
+    <string name="Alert_bt_setting">Alert Setting</string>
+    <string name="Alert_custom_tv_setting">Dostosuj ustawienia Alert</string>
+    <string name="translater_heading_setting">Ludzie, którzy pomogli przetłumaczyć aplikację.</string>
+    <string name="translater_detaile_setting">Pokaż alert, gdy bateria jest pełna</string>
+    <string name="alarm_full_battery_heading_setting">Pokaż alert, gdy bateria jest niski</string>
+    <string name="alarm_high_temp_heading_setting">Pokaż alert, gdy temperatura akumulatora jest wysoka</string>
+    <string name="Alert_custom_full_battery_tv_setting">Bateria pełna poziom</string>
+    <string name="Alert_custom_low_battery_tv_setting">Niski poziom baterii</string>
+    <string name="Alert_custom__high_custom_tv_setting">temperatura akumulatora</string>
+    <string name="battery_level_for_notification">poziom naładowania baterii</string>
+    <string name="Alert_custom__full_level">Bateria pełna</string>
+    <string name="Alert_custom__low_level">Niski poziom baterii</string>
+    <string name="Alert_custom__high_temp">Bateria gorąca</string>
+    <string name="dissconneced">Odrębny</string>
+    <string name="notification_heading_setting">Ukryj jeśli nie pobierana</string>
+    <string name="notification_detaile_setting">Użyj "minimum" wiadomość priorytetową, jeśli nie ładuje</string>
+    <string name="permanent_notification_heading_setting">Powiadomienie</string>
+    <string name="permanent_notification_detaile_setting">Włączanie / wyłączanie stałego wiadomości</string>
+    <string name="toast_hide_notificaion_message">Powiadomienie zostanie wyświetlony na opłaty</string>
+    <!-- new line-->
+    <string name="remove_ads">Usuń reklamy</string>
+    <string name="action_alert_settings">ustawienia ostrzeżeń</string>
+    <string name="flowingcurrent_text_view">prąd płynący</string>
+
+</resources>

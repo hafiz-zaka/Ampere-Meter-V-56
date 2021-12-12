@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+    <string name="app_name">Ампера Meter</string>
+    <string name="action_settings">настройки</string>
+    <string name="action_pro">Купить Pro версию</string>
+    <string name="action_Rate">Оцените нас</string>
+    <string name="action_share">Поделиться</string>
+
+    <string name="level_text_view">уровень</string>
+    <string name="remaning_text_view">осталось</string>
+    <string name="capacity_text_view">Вместимость</string>
+    <string name="technonlogy_text_view">Технологии</string>
+    <string name="healt_text_view">Здоровье</string>
+    <string name="temperature_text_view">температура</string>
+    <string name="voltage_text_view">напряжение</string>
+    <string name="charger_text_view">зарядное устройство</string>
+    <string name="model_text_view">Модель</string>
+    <string name="status_text_view">Положение дел</string>
+    <string name="android_version_text_view">Android-версия</string>
+    <string name="build_id_text_view">построить ID</string>
+    <string name="dialog_estimate_text_view">Расчетное Тарификация</string>
+    <string name="dialog_time_text_view">Время</string>
+    <string name="setting_message1_text_view">Открыть для подключения</string>
+    <string name="setting_message2_text_view">Приложение запускается автоматически при подключении зарядного устройства</string>
+
+    <string name="message_text_view">Пожалуйста, нажмите на кнопку подключенной для получения дополнительной информации</string>
+    <string name="chip_message1_text_view">* К сожалению ваш телефон не имеют чип, который измеряет ток. так что любое приложение не может измерить поток тока через программно в телефоне, который не имея chip.So в отсутствие чипа, мы оцениваем тока на основе USB и зарядное устройство, которое информирует только приблизительный уровень тока, протекающего через кабель</string>
+    <string name="chip_message2_text_view">* Более того, ожидается, время вычислить зарядки. эта функция является дополнительной и она включается только в амперах метр app.it добавляется для облегчения тех клиентов, у которых телефон не имея чип поэтому они не могут не про ожидаемое время зарядки </string>
+    <string name="chip_message3_text_view">* Более того, ожидается, время вычислить зарядки. эта функция является дополнительной и она включается только в амперах метр app.it добавляется для облегчения тех клиентов, у которых телефон не имея чип поэтому они не могут не про ожидаемое время зарядки</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">ok</string>
+
+
+    <!--Main Activity-->
+    <string name="connectd">Связанный</string>
+    <string name="not_charging">Не заряжается</string>
+    <string name="defult_plug_type">неизвестный</string>
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">USB</string>
+
+    <string name="defult_health_String">неизвестный</string>
+    <string name="dead_health_String">мертв</string>
+    <string name="good_health_String">Хорошо</string>
+    <string name="over_heat_health_String">Перенапряжение</string>
+    <string name="over_voltage_health_String">Перенапряжение</string>
+    <string name="faliur_health_String">недостаточность</string>
+    <string name="not_charging_status">Не заряжается</string>
+    <string name="full_status">Полный</string>
+    <string name="discharge_status">разрядка</string>
+
+    <string name="defult_status">Зарядка</string>
+    <string name="charging_status">Зарядка</string>
+
+
+
+    <string name="hour">часов и </string>
+    <string name="mint"> минут</string>
+    <string name="setting_language_main" >язык</string>
+    <string name="setting_language_messae" >Игнорировать язык устройства и использовать другие</string>
+    <string name="more_apps">Больше приложений</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+
+    <string name="temperature_heading_setting">Температура в</string>
+    <string name="temperature_detaile_setting">Единица температуры выбрать либо по Цельсию (C) или Фаренгейта (F)</string>
+    <string name="alarm_low_battery_heading_setting">SHOSH Aller vhen TCE батареи плохо
+</string>
+
+    <string name="charging_time_heading_setting">Экран времени Чаринг</string>
+    <string name="charging_ime_detaile_setting">Показать оценки стоимости зарядки экран времени</string>
+    <string name="Alert_bt_setting">Оповещение Настройка</string>
+    <string name="Alert_custom_tv_setting">Настройка Настройка оповещений</string>
+    <string name="translater_heading_setting">Переводчики</string>
+    <string name="translater_detaile_setting">Люди, которые помогли перевести приложение.</string>
+    <string name="alarm_full_battery_heading_setting">Показать уведомление, когда батарея полностью заряжена</string>
+    <string name="alarm_high_temp_heading_setting">Показать уведомление, когда температура батареи высокая</string>
+    <string name="Alert_custom_full_battery_tv_setting">полный уровень батареи</string>
+    <string name="Alert_custom_low_battery_tv_setting">Аккумулятор низкий уровень</string>
+    <string name="Alert_custom__high_custom_tv_setting">температура батареи</string>
+    <string name="battery_level_for_notification">уровень заряда батареи</string>
+    <string name="Alert_custom__full_level">полного заряда аккумулятора</string>
+    <string name="Alert_custom__low_level">Низкий заряд батареи</string>
+    <string name="Alert_custom__high_temp">Аккумулятор горячий</string>
+    <string name="dissconneced">несвязанный</string>
+    <string name="notification_heading_setting">Скрыть, если не взимается</string>
+    <string name="notification_detaile_setting">Используйте "минимальный" приоритет сообщения, если не заряжается</string>
+    <string name="permanent_notification_heading_setting">уведомление</string>
+    <string name="permanent_notification_detaile_setting">Включение / выключение постоянного сообщения</string>
+    <string name="toast_hide_notificaion_message">Уведомление будет отображаться на заряд</string>
+    <!-- new line-->
+    <string name="remove_ads">Убрать рекламу</string>
+    <string name="action_alert_settings">Настройки уведомлений</string>
+    <string name="flowingcurrent_text_view">Ток утечки</string>
+
+</resources>

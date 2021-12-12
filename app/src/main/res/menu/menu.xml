@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.MainActivity">
+
+    <item
+        android:id="@+id/action_pro_ico"
+        android:orderInCategory="100"
+        android:title="@string/action_pro"
+        android:icon="@drawable/action_pro"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_rate"
+
+        android:title="@string/action_Rate"
+        app:showAsAction="never" />
+    <!--<item-->
+        <!--android:id="@+id/action_more"-->
+
+      <!--android:title="@string/more_apps"-->
+        <!--app:showAsAction="never" />-->
+    <item
+        android:id="@+id/action_share"
+
+        android:title="@string/action_share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_setting"
+
+
+        android:title="@string/action_settings"
+        />
+    <item
+        android:id="@+id/about_us"
+
+
+        android:title="About Us"
+        />
+    <item
+        android:id="@+id/PrivacyPolicy"
+
+
+        android:title="Privacy Policy"
+        />
+
+</menu>

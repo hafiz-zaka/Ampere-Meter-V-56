@@ -1,0 +1,130 @@
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+
+    <string name="app_name">Ampere Meter</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_pro">Acquista la versione Pro</string>
+    <string name="action_Rate">Valuta</string>
+    <string name="action_share">Condividi</string>
+
+    <string name="level_text_view">Livello</string>
+    <string name="remaning_text_view">Rimanente</string>
+    <string name="capacity_text_view">Capacità</string>
+    <string name="technonlogy_text_view">Tecnologia</string>
+    <string name="healt_text_view">Salute</string>
+    <string name="temperature_text_view">Temperatura</string>
+    <string name="voltage_text_view">Voltaggio</string>
+    <string name="charger_text_view">Caricabatteria</string>
+    <string name="model_text_view">Modello</string>
+    <string name="status_text_view">Stato</string>
+    <string name="android_version_text_view">Versione di Android</string>
+    <string name="build_id_text_view">Build ID</string>
+    <string name="dialog_estimate_text_view">Carica stimata</string>
+    <string name="dialog_time_text_view">Tempo</string>
+    <string name="setting_message1_text_view">Apri per connettere</string>
+    <string name="setting_message2_text_view">L\'applicazione si avvia automaticamente collegando il caricabatteria</string>
+
+    <string name="message_text_view">Premere il bottone Connetti per ulteriore informazioni</string>
+   <string name="chip_message1_text_view">* Spiacente il telefono non ha circuito integrato che misura la corrente. in modo che qualsiasi applicazione non puo misurare
+
+il flusso di corrente attraverso di programmazione nel telefono, che non avendo chip.So in
+l\'assenza del circuito integrato, si stima corrente sulla base USB e caricabatterie AC che informano solo livello approssimativo di corrente che fluisce attraverso il cavo</string>
+    <string name="chip_message2_text_view">* Tuttavia Ampere Meter è in grado di stimare il tempo di ricarica, unica app a farlo, anche in assenza del chip.</string>
+    <string name="chip_message3_text_view">* In caso di probmemi, contattateci tramite email</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">ok</string>
+
+
+    <string name="connectd">Collegato</string>
+    <string name="not_charging">Non in carica</string>
+    <string name="defult_plug_type">Sconosciuto</string>
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">Sconosciuto</string>
+    <string name="dead_health_String">Morta</string>
+    <string name="good_health_String">Buona</string>
+    <string name="over_heat_health_String">Surriscaldamento</string>
+    <string name="over_voltage_health_String">Sovraccarico</string>
+    <string name="faliur_health_String">Guasta</string>
+    <string name="not_charging_status">Non in carica</string>
+    <string name="full_status">Piena</string>
+    <string name="discharge_status">In scarica</string>
+
+    <string name="defult_status">Sconosciuto</string>
+    <string name="charging_status">In carica</string>
+
+
+    <string name="hour">Ore e </string>
+    <string name="mint"> minuti</string>
+
+    <string name="setting_language_main">Lingua</string>
+    <string name="setting_language_messae">Ignora la lingua del dispositivo</string>
+    <string name="more_apps">Altre apps</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+    <string name="temperature_heading_setting">Temperatura in</string>
+    <string name="temperature_detaile_setting">L\'unità di temperatura scegliere sia i gradi Celsius (C) o Fahrenheit (F)</string>
+    <string name="charging_time_heading_setting">schermo tempo Charing</string>
+    <string name="charging_ime_detaile_setting">Visualizza stima schermo tempo di ricarica</string>
+    <string name="Alert_bt_setting">Impostazione Alert</string>
+    <string name="Alert_custom_tv_setting">Personalizza Alert Setting</string>
+    <string name="translater_heading_setting">Traduttori</string>
+    <string name="translater_detaile_setting">La gente che ha aiutato a tradurre l\'applicazione.</string>
+    <string name="alarm_full_battery_heading_setting">Mostra avviso quando la batteria è carica</string>
+    <string name="alarm_low_battery_heading_setting">Mostra avviso quando la batteria è scarica</string>
+    <string name="alarm_high_temp_heading_setting">Mostra avviso quando la temperatura della batteria è alta</string>
+    <string name="Alert_custom_full_battery_tv_setting">livello di piena batteria</string>
+    <string name="Alert_custom_low_battery_tv_setting">Batteria basso livello</string>
+    <string name="Alert_custom__high_custom_tv_setting">La temperatura della batteria</string>
+    <string name="battery_level_for_notification">livello batteria</string>
+    <string name="Alert_custom__full_level">Batteria carica</string>
+    <string name="Alert_custom__low_level">Batteria scarica</string>
+    <string name="Alert_custom__high_temp">Batteria caldo</string>
+    <string name="dissconneced">Non connesso</string>
+    <string name="notification_heading_setting">Hide se non carica</string>
+    <string name="notification_detaile_setting">Utilizzare il messaggio di priorità "minimo", se non si carica</string>
+    <string name="permanent_notification_heading_setting">Notifica</string>
+    <string name="permanent_notification_detaile_setting"> Attivare / disattivare il messaggio permanente</string>
+    <string name="toast_hide_notificaion_message">La notifica verrà visualizzata con l\'accusa</string>
+
+    <!-- new line-->
+    <string name="remove_ads">Rimuovere gli annunci</string>
+    <string name="action_alert_settings">Le impostazioni degli avvisi</string>
+    <string name="flowingcurrent_text_view">corrente che scorre</string>
+
+</resources>

@@ -1,0 +1,131 @@
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+
+    <string name="app_name">ampermetru</string>
+    <string name="action_settings">setările</string>
+    <string name="action_pro">Cumpăra Pro Versiune</string>
+    <string name="action_Rate">Ne evalua</string>
+    <string name="action_share">Acțiune</string>
+
+    <string name="level_text_view">Nivel</string>
+    <string name="remaning_text_view">Rămas</string>
+    <string name="capacity_text_view">Capacitate</string>
+    <string name="technonlogy_text_view">Tehnologie</string>
+    <string name="healt_text_view">Sănătate</string>
+    <string name="temperature_text_view">Temperatura</string>
+    <string name="voltage_text_view">Voltaj</string>
+    <string name="charger_text_view">Încărcător</string>
+    <string name="model_text_view">Model</string>
+    <string name="status_text_view">stare</string>
+    <string name="android_version_text_view">Android versiunea</string>
+    <string name="build_id_text_view">ID-ul construi</string>
+    <string name="dialog_estimate_text_view">Încărcarea estimată</string>
+    <string name="dialog_time_text_view">Timp</string>
+    <string name="setting_message1_text_view">Deschis pentru a conecta</string>
+    <string name="setting_message2_text_view">Aplicația pornește automat atunci când conectați încărcătorul</string>
+
+    <string name="message_text_view">Vă rugăm să apăsați pe butonul conectat pentru mai multe informații</string>
+    <string name="chip_message1_text_view">* Ne pare rău telefonul nu au nici un cip care masoara curent. astfel încât orice aplicație nu se poate măsura
+flux de curent prin programatică în telefon, care nu au chip.So în
+lipsa de cip, estimăm curente pe baza USB și încărcător AC care informează numai nivelul aproximativ al curentului prin cablu care curge
+</string>
+    <string name="chip_message2_text_view">*Mai mult decât atât calcula de așteptat timp de încărcare. această caracteristică este suplimentară și este încorporat numai în ampermetru app.it se adaugă pentru a facilita acei clienți ale căror telefon nu are cip astfel încât acestea să poată nici despre așteptat timp de încărcare</string>
+    <string name="chip_message3_text_view">*
+Dacă întâlniți probleme prin această aplicație, vă rugăm să ne informați cu privire prin e-mail
+</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">bine</string>
+
+
+    <string name="connectd">Conectat</string>
+    <string name="not_charging">Nu se incarca</string>
+    <string name="defult_plug_type">Necunoscut</string>
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">Necunoscut</string>
+    <string name="dead_health_String">Mort</string>
+    <string name="good_health_String">Bun</string>
+    <string name="over_heat_health_String">peste căldură</string>
+    <string name="over_voltage_health_String">peste tensiune</string>
+    <string name="faliur_health_String">eșec</string>
+    <string name="not_charging_status">Nu se incarca</string>
+    <string name="full_status">Deplin</string>
+    <string name="discharge_status">descãrcarea</string>
+
+    <string name="defult_status">Necunoscut</string>
+    <string name="charging_status">încărcare</string>
+
+
+    <string name="hour">ore și </string>
+    <string name="mint"> minute</string>
+
+    <string name="setting_language_main" >Limba</string>
+    <string name="setting_language_messae" >A ignora limba dispozitivului și a utiliza alte</string>
+    <string name="more_apps">Mai multe aplicatii</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+    <string name="temperature_heading_setting">temperatura de la</string>
+    <string name="temperature_detaile_setting">Unitatea de temperatură alege fie celsius (C) sau Fahrenheit (F)</string>
+    <string name="charging_time_heading_setting">ecran timp Charing</string>
+    <string name="charging_ime_detaile_setting">Afișează estimarea de încărcare ecran timp</string>
+    <string name="Alert_bt_setting">Setare alerte</string>
+    <string name="Alert_custom_tv_setting">Personalizează Alert Setare</string>
+    <string name="translater_heading_setting">traducători</string>
+    <string name="translater_detaile_setting">Oamenii care au ajutat traduce app.</string>
+    <string name="alarm_full_battery_heading_setting">Afișați alerte atunci când bateria este plină</string>
+    <string name="alarm_low_battery_heading_setting">Afișați alerte atunci când bateria este descărcată</string>
+    <string name="alarm_high_temp_heading_setting">Afișați alerte atunci când temperatura bateriei este ridicată</string>
+    <string name="Alert_custom_full_battery_tv_setting">Nivelul de baterie complet</string>
+    <string name="Alert_custom_low_battery_tv_setting">Nivelul redus de încărcare</string>
+    <string name="Alert_custom__high_custom_tv_setting">temperatura bateriei</string>
+    <string name="battery_level_for_notification">nivelul bateriei</string>
+    <string name="Alert_custom__full_level">baterie completă</string>
+    <string name="Alert_custom__low_level">Baterie descărcată</string>
+    <string name="Alert_custom__high_temp">baterie fierbint</string>
+    <string name="dissconneced">Neconectat</string>
+    <string name="notification_heading_setting">Ascunde dacă nu este încărcată</string>
+    <string name="notification_detaile_setting">Utilizați "minim", mesajul de prioritate în cazul în care nu se încarcă</string>
+    <string name="permanent_notification_heading_setting">Notificare</string>
+    <string name="permanent_notification_detaile_setting">Activa / dezactiva mesajul permanent</string>
+    <string name="toast_hide_notificaion_message">Notificare va fi afișată pe taxa</string>
+    <!-- new line-->
+    <string name="remove_ads">Elimina anunțurile</string>
+    <string name="action_alert_settings">setările de alertă</string>
+    <string name="flowingcurrent_text_view">curente curgător</string>
+
+</resources>

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+   android:background="@color/layout_background">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="@dimen/tv_margin"
+                android:layout_marginLeft="@dimen/tv_margin"
+                android:layout_marginBottom="@dimen/tv_margin"
+                android:elevation="@dimen/tv_elevation_size"
+                android:background="@color/layout_inner">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/tv_charging_state"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/tv_margin"
+                    android:layout_marginBottom="@dimen/tv_margin"
+                    android:textColor="@color/tv_information_color"
+                    android:textSize="30sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <LinearLayout
+                    android:layout_margin="@dimen/tv_margin"
+                    android:orientation="vertical"
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:elevation="@dimen/tv_elevation_size"
+                    android:layout_height="wrap_content"
+                    android:background="@color/layout_inner"
+                    android:layout_marginTop="@dimen/layout_upper_margin"
+                    android:layout_marginRight="@dimen/layout_right_margin">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/tv_level_detail"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:textColor="@color/tv_information_color"
+                        android:textSize="@dimen/tv_information_size"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Level"
+                        android:id="@+id/tv_level"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:layout_marginBottom="@dimen/tv_margin"
+                        android:textColor="@color/tv_heading_color"
+                        android:textSize="@dimen/tv_heading_size"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_margin="@dimen/tv_margin"
+                    android:elevation="@dimen/tv_elevation_size"
+                    android:orientation="vertical"
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/layout_inner"
+                    android:layout_marginTop="@dimen/layout_upper_margin">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/tv_remaning_detaile"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:textColor="@color/tv_information_color"
+                        android:textSize="@dimen/tv_information_size"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Remaning"
+                        android:id="@+id/tv_remaning"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:layout_marginBottom="@dimen/tv_margin"
+                        android:textColor="@color/tv_heading_color"
+                        android:textSize="@dimen/tv_heading_size"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <LinearLayout
+                    android:layout_margin="@dimen/tv_margin"
+                    android:elevation="@dimen/tv_elevation_size"
+                    android:orientation="vertical"
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/layout_inner"
+                    android:layout_marginTop="@dimen/layout_upper_margin"
+                    android:layout_marginRight="@dimen/layout_right_margin">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/tv_capacity_detail"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:textColor="@color/tv_information_color"
+                        android:textSize="@dimen/tv_information_size"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Capacity"
+                        android:id="@+id/tv_capacity"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:layout_marginBottom="@dimen/tv_margin"
+                        android:textColor="@color/tv_heading_color"
+                        android:textSize="@dimen/tv_heading_size"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_margin="@dimen/tv_margin"
+                    android:elevation="@dimen/tv_elevation_size"
+                    android:orientation="vertical"
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/layout_inner"
+                    android:layout_marginTop="@dimen/layout_upper_margin">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/tv_technology_detaile"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:textColor="@color/tv_information_color"
+                        android:textSize="@dimen/tv_information_size"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Technology"
+                        android:id="@+id/tv_technology"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:layout_marginBottom="@dimen/tv_margin"
+                        android:textColor="@color/tv_heading_color"
+                        android:textSize="@dimen/tv_heading_size"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_margin="@dimen/tv_margin"
+                    android:elevation="@dimen/tv_elevation_size"
+                    android:orientation="vertical"
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/layout_inner"
+                    android:layout_marginTop="@dimen/layout_upper_margin"
+                    android:layout_marginRight="@dimen/layout_right_margin" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/tv_health_detaile"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:textColor="@color/tv_information_color"
+                        android:textSize="@dimen/tv_information_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Health"
+                        android:id="@+id/tv_health"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:layout_marginBottom="@dimen/tv_margin"
+                        android:textColor="@color/tv_heading_color"
+                        android:textSize="@dimen/tv_heading_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="@dimen/tv_margin"
+                    android:elevation="@dimen/tv_elevation_size"
+                    android:orientation="vertical"
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/layout_inner"
+                    android:layout_marginTop="@dimen/layout_upper_margin" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/tv_temperature_detaile"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:textColor="@color/tv_information_color"
+                        android:textSize="@dimen/tv_information_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Temperature"
+                        android:id="@+id/tv_temperature"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:layout_marginBottom="@dimen/tv_margin"
+                        android:textColor="@color/tv_heading_color"
+                        android:textSize="@dimen/tv_heading_size" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_margin="@dimen/tv_margin"
+                    android:elevation="@dimen/tv_elevation_size"
+                    android:orientation="vertical"
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/layout_inner"
+                    android:layout_marginTop="@dimen/layout_upper_margin"
+                    android:layout_marginRight="@dimen/layout_right_margin" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/tv_voltage_detaile"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:textColor="@color/tv_information_color"
+                        android:textSize="@dimen/tv_information_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Voltage"
+                        android:id="@+id/tv_voltage"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:layout_marginBottom="@dimen/tv_margin"
+                        android:textColor="@color/tv_heading_color"
+                        android:textSize="@dimen/tv_heading_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="@dimen/tv_margin"
+                    android:elevation="@dimen/tv_elevation_size"
+                    android:orientation="vertical"
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/layout_inner"
+                    android:layout_marginTop="@dimen/layout_upper_margin" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/tv_charger_detaile"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:textColor="@color/tv_information_color"
+                        android:textSize="@dimen/tv_information_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Charger"
+                        android:id="@+id/tv_charger"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:layout_marginBottom="@dimen/tv_margin"
+                        android:textColor="@color/tv_heading_color"
+                        android:textSize="@dimen/tv_heading_size" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_margin="@dimen/tv_margin"
+                    android:elevation="@dimen/tv_elevation_size"
+                    android:orientation="vertical"
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/layout_inner"
+                    android:layout_marginTop="@dimen/layout_upper_margin"
+                    android:layout_marginRight="@dimen/layout_right_margin" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/tv_model_detaile"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:textColor="@color/tv_information_color"
+                        android:textSize="@dimen/tv_information_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Model"
+                        android:id="@+id/tv_Model"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:layout_marginBottom="@dimen/tv_margin"
+                        android:textColor="@color/tv_heading_color"
+                        android:textSize="@dimen/tv_heading_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="@dimen/tv_margin"
+                    android:elevation="@dimen/tv_elevation_size"
+                    android:orientation="vertical"
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/layout_inner"
+                    android:layout_marginTop="@dimen/layout_upper_margin" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/tv_status_detaile"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:textColor="@color/tv_information_color"
+                        android:textSize="@dimen/tv_information_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Status"
+                        android:id="@+id/tv_status"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:layout_marginBottom="@dimen/tv_margin"
+                        android:textColor="@color/tv_heading_color"
+                        android:textSize="@dimen/tv_heading_size" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_margin="@dimen/tv_margin"
+                    android:elevation="@dimen/tv_elevation_size"
+                    android:orientation="vertical"
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/layout_inner"
+                    android:layout_marginTop="@dimen/layout_upper_margin"
+                    android:layout_marginRight="@dimen/layout_right_margin" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/tv_version_detaile"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:textColor="@color/tv_information_color"
+                        android:textSize="@dimen/tv_information_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Android Version"
+                        android:id="@+id/tv_version"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:layout_marginBottom="@dimen/tv_margin"
+                        android:textColor="@color/tv_heading_color"
+                        android:textSize="@dimen/tv_heading_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="@dimen/tv_margin"
+                    android:elevation="@dimen/tv_elevation_size"
+                    android:orientation="vertical"
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@color/layout_inner"
+                    android:layout_marginTop="@dimen/layout_upper_margin" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/tv_build_id_detaile"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:textColor="@color/tv_information_color"
+                        android:textSize="@dimen/tv_information_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Build ID"
+                        android:id="@+id/tv_build_id"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/tv_margin"
+                        android:layout_marginBottom="@dimen/tv_margin"
+                        android:textColor="@color/tv_heading_color"
+                        android:textSize="@dimen/tv_heading_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

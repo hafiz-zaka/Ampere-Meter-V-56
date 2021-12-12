@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_rate"
+            android:checked="false"
+            android:icon="@drawable/rate_us"
+            android:title="@string/action_Rate" />
+
+        <item
+            android:id="@+id/action_share"
+            android:checked="false"
+            android:icon="@drawable/share"
+            android:title="@string/action_share" />
+
+        <item
+            android:id="@+id/action_pro_ico"
+            android:checked="false"
+            android:icon="@drawable/action_pro"
+            android:title="@string/remove_ads"/>
+        <item
+            android:id="@+id/about_us"
+            android:checked="false"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="About Us"
+            />
+
+        <item
+            android:id="@+id/action_setting"
+            android:checked="false"
+            android:icon="@drawable/settings"
+            android:title="@string/action_settings" />
+        <item
+            android:id="@+id/action_alert_setting"
+            android:checked="false"
+            android:icon="@drawable/alert"
+            android:title="@string/action_alert_settings" />
+    </group>
+</menu>

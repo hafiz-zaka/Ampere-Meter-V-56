@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+    <string name="app_name">Ampere Meter</string>
+    <string name="action_settings">pengaturan</string>
+    <string name="action_pro">Beli Pro Version</string>
+    <string name="action_Rate">tingkat Kami</string>
+    <string name="action_share">Bagikan</string>
+
+    <string name="level_text_view">Tingkat</string>
+    <string name="remaning_text_view"> sisa</string>
+    <string name="capacity_text_view">Kapasitas</string>
+    <string name="technonlogy_text_view">Teknologi</string>
+    <string name="healt_text_view">Kesehatan</string>
+    <string name="temperature_text_view"> Suhu</string>
+    <string name="voltage_text_view">Tegangan</string>
+    <string name="charger_text_view">charger</string>
+    <string name="model_text_view">Model</string>
+    <string name="status_text_view">Status</string>
+    <string name="android_version_text_view">Versi Android</string>
+    <string name="build_id_text_view">membangun ID</string>
+    <string name="dialog_estimate_text_view">perkiraan Pengisian</string>
+    <string name="dialog_time_text_view">Waktu</string>
+    <string name="setting_message1_text_view">Terbuka untuk menghubungkan</string>
+    <string name="setting_message2_text_view">aplikasi secara otomatis dimulai ketika Anda menyambungkan pengisi
+</string>
+
+    <string name="message_text_view">Silahkan tekan tombol terhubung untuk informasi lebih lanjut
+</string>
+    <string name="chip_message1_text_view">* Maaf telepon Anda tidak memiliki chip yang yang mengukur arus. sehingga aplikasi apapun tidak dapat mengukur aliran arus melalui pemrograman di telepon Anda, yang tidak memiliki chip.So dengan tidak adanya chip, kami memperkirakan saat ini atas dasar USB dan charger AC yang menginformasikan tingkat hanya Perkiraan arus yang mengalir melalui kabel</string>
+    <string name="chip_message2_text_view">*Selain itu menghitung diharapkan waktu pengisian. fitur ini tambahan dan itu dimasukkan hanya dalam ampere meter app.it ditambahkan untuk memfasilitasi klien-klien yang telepon tidak memiliki chip yang sehingga mereka tidak ada tentang bisa diharapkan waktu pengisian
+</string>
+    <string name="chip_message3_text_view">* Jika Anda menemukan masalah apapun dengan menggunakan aplikasi ini silahkan beritahu kami di lebih dari email</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">baik</string>
+
+
+    <!--Main Activity-->
+    <string name="connectd">terhubung</string>
+    <string name="not_charging">tidak Pengisian</string>
+    <string name="defult_plug_type">tidak diketahui</string>
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">tidak diketahui</string>
+    <string name="dead_health_String">Mati</string>
+    <string name="good_health_String">Baik</string>
+    <string name="over_heat_health_String">lebih Panas</string>
+    <string name="over_voltage_health_String">selama Voltage</string>
+    <string name="faliur_health_String">Kegagalan</string>
+    <string name="not_charging_status">tidak Pengisian</string>
+    <string name="full_status">Penuh</string>
+    <string name="discharge_status">pengosongan</string>
+
+    <string name="defult_status">tidak diketahui</string>
+    <string name="charging_status">pengisian</string>
+
+
+
+    <string name="hour">jam dan </string>
+    <string name="mint"> menit</string>
+
+    <string name="setting_language_main">Bahasa</string>
+    <string name="setting_language_messae">Mengabaikan bahasa perangkat dan menggunakan lainnya</string>
+    <string name="more_apps">Aplikasi tambahan lainnya</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+
+    <string name="temperature_heading_setting">suhu di</string>
+    <string name="temperature_detaile_setting">Unit suhu memilih salah celsius (C) atau Fahrenheit (F)</string>
+    <string name="charging_time_heading_setting">Layar waktu Charing</string>
+    <string name="charging_ime_detaile_setting">Tampilkan memperkirakan pengisian layar waktu</string>
+    <string name="Alert_bt_setting">Pengaturan peringatan</string>
+    <string name="Alert_custom_tv_setting">Sesuaikan lansiran Pengaturan</string>
+    <string name="translater_heading_setting">penerjemah</string>
+    <string name="translater_detaile_setting">Orang-orang yang membantu menerjemahkan aplikasi.</string>
+    <string name="alarm_full_battery_heading_setting">Tampilkan peringatan ketika baterai sudah penuh</string>
+    <string name="alarm_low_battery_heading_setting">Tampilkan peringatan bila baterai rendah</string>
+    <string name="alarm_high_temp_heading_setting">Tampilkan peringatan ketika suhu baterai tinggi</string>
+    <string name="Alert_custom_full_battery_tv_setting">Tingkat penuh baterai</string>
+    <string name="Alert_custom_low_battery_tv_setting">Baterai tingkat rendah</string>
+    <string name="Alert_custom__high_custom_tv_setting">suhu baterai</string>
+    <string name="battery_level_for_notification">tingkat baterai</string>
+    <string name="Alert_custom__full_level">baterai penuh</string>
+    <string name="Alert_custom__low_level">Baterai lemah</string>
+    <string name="Alert_custom__high_temp">baterai hot</string>
+    <string name="dissconneced">tak bertalian</string>
+    <string name="notification_heading_setting">Sembunyikan jika tidak dikenakan biaya</string>
+    <string name="notification_detaile_setting">Gunakan "minimum" pesan prioritas jika tidak pengisian</string>
+    <string name="permanent_notification_heading_setting">Pemberitahuan</string>
+    <string name="permanent_notification_detaile_setting">Mengaktifkan / menonaktifkan pesan permanen</string>
+    <string name="toast_hide_notificaion_message">Pemberitahuan akan ditampilkan pada muatan</string>
+    <!-- new line-->
+    <string name="remove_ads">Hilangkan iklan</string>
+    <string name="action_alert_settings">pengaturan tanda</string>
+    <string name="flowingcurrent_text_view">arus yang mengalir</string>
+
+</resources>

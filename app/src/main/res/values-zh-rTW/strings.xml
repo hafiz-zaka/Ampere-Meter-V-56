@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+    <string name="app_name">安培計</string>
+    <string name="action_settings">設定</string>
+    <string name="action_pro">購買專業版</string>
+    <string name="action_Rate">給我們評分</string>
+    <string name="action_share">分享</string>
+
+    <string name="level_text_view">目前</string>
+    <string name="remaning_text_view">待充</string>
+    <string name="capacity_text_view">容量</string>
+    <string name="technonlogy_text_view">技術</string>
+    <string name="healt_text_view">健康</string>
+    <string name="temperature_text_view">溫度</string>
+    <string name="voltage_text_view">電壓</string>
+    <string name="charger_text_view">充電器</string>
+    <string name="model_text_view">機型</string>
+    <string name="status_text_view">狀態</string>
+    <string name="android_version_text_view">Android 版本</string>
+    <string name="build_id_text_view">版本號碼</string>
+    <string name="dialog_estimate_text_view">估計充電</string>
+    <string name="dialog_time_text_view">時間</string>
+    <string name="setting_message1_text_view">連接時啟動</string>
+    <string name="setting_message2_text_view">當接上充電器時本程式將自動啟動</string>
+
+    <string name="message_text_view">請按“已接上”按鈕以獲得更多資訊</string>
+    <string name="chip_message1_text_view">* 很抱歉，由於此手機沒有測量電流的感測器芯片，所以任何手機內的APP都無法以程式測得電流。由於缺少了該芯片，我們僅能以USB和AC充電器的資訊為基礎估計大約的電流量</string>
+    <string name="chip_message2_text_view">* 此外，此估計充電時間的功能是外加的，且僅能在安培計APP中作用。這是為了讓沒有該芯片的手機使用者也可以瞭解大約的充電時間</string>
+    <string name="chip_message3_text_view">* 如果使用此APP遇到任何困難，請以 E-mail 通知我們</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">確定</string>
+
+
+    <string name="connectd">已連接</string>
+    <string name="not_charging">未充電</string>
+    <string name="defult_plug_type">未知</string>
+    <string name="AC_plug_type">AC充電器</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">未知</string>
+    <string name="dead_health_String">損壞</string>
+    <string name="good_health_String">良好</string>
+    <string name="over_heat_health_String">過熱</string>
+    <string name="over_voltage_health_String">電壓過高</string>
+    <string name="faliur_health_String">失敗</string>
+    <string name="not_charging_status">未充電</string>
+    <string name="full_status">已充滿</string>
+    <string name="discharge_status">放電中</string>
+
+    <string name="defult_status">未知</string>
+    <string name="charging_status">充電中</string>
+
+
+    <string name="hour">小時 </string>
+    <string name="mint"> 分鐘</string>
+
+    <string name="setting_language_main">語言</string>
+    <string name="setting_language_messae">忽略裝置語言改用其他</string>
+    <string name="more_apps">更多 APPs</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+    <string name="temperature_heading_setting">溫度</string>
+    <string name="temperature_detaile_setting">溫度單位選擇攝氏（C）或華氏（F）</string>
+    <string name="charging_time_heading_setting">查看時間屏幕</string>
+    <string name="charging_ime_detaile_setting">顯示估計充電時間屏幕</string>
+    <string name="Alert_bt_setting">警報設置</string>
+    <string name="Alert_custom_tv_setting">自定義警報設置</string>
+    <string name="translater_heading_setting">翻譯</string>
+    <string name="translater_detaile_setting">幫助翻譯應用程序的人。</string>
+    <string name="alarm_full_battery_heading_setting">電池充滿時顯示警報</string>
+    <string name="alarm_low_battery_heading_setting">當電池電量低時顯示警報</string>
+    <string name="alarm_high_temp_heading_setting">當電池溫度高時顯示警報</string>
+    <string name="Alert_custom_full_battery_tv_setting">電池滿量程</string>
+    <string name="Alert_custom_low_battery_tv_setting">電池電量低</string>
+    <string name="Alert_custom__high_custom_tv_setting">電池溫度</string>
+    <string name="battery_level_for_notification">電池電量</string>
+    <string name="Alert_custom__full_level">電池已滿</string>
+    <string name="Alert_custom__low_level">電量不足</string>
+    <string name="Alert_custom__high_temp">電池熱</string>
+    <string name="dissconneced">未連接</string>
+    <string name="notification_heading_setting">如果未收費，則隱藏</string>
+    <string name="notification_detaile_setting">如果不充電，請使用“最小”優先級消息</string>
+    <string name="permanent_notification_heading_setting">通知</string>
+    <string name="permanent_notification_detaile_setting">打開/關閉永久消息</string>
+    <string name="toast_hide_notificaion_message">通知將顯示在收費</string>
+    <!-- new line-->
+    <string name="remove_ads">移除廣告</string>
+    <string name="action_alert_settings">警報設置</string>
+    <string name="flowingcurrent_text_view">流動電流</string>
+
+</resources>

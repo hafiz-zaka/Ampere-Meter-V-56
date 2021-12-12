@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ads_id">ca-app-pub-6151128815912996/2549835262</string>
+    <string name="admob_publisher_interstitial_id">ca-app-pub-6151128815912996/5363700864</string>
+    <!-- Change AdMob Id -->
+    <string name="app_name">アンペアメーター
+</string>
+    <string name="action_settings">設定</string>
+    <string name="action_pro">Pro版を購入</string>
+    <string name="action_Rate">評価してください
+</string>
+    <string name="action_share">シェア</string>
+
+    <string name="level_text_view">レベル</string>
+    <string name="remaning_text_view"> 残り</string>
+    <string name="capacity_text_view">容量</string>
+    <string name="technonlogy_text_view">技術</string>
+    <string name="healt_text_view">健康</string>
+    <string name="temperature_text_view"> 温度</string>
+    <string name="voltage_text_view">電圧</string>
+    <string name="charger_text_view">充電器</string>
+    <string name="model_text_view">モデル</string>
+    <string name="status_text_view">状態</string>
+    <string name="android_version_text_view">Androidのバージョン</string>
+    <string name="build_id_text_view">IDを構築</string>
+    <string name="dialog_estimate_text_view">推定充電</string>
+    <string name="dialog_time_text_view">時間</string>
+    <string name="setting_message1_text_view">接続を開きます</string>
+    <string name="setting_message2_text_view">あなたは充電器を接続したときにアプリケーションが自動的に起動します</string>
+
+    <string name="message_text_view">詳細については、接続ボタンを押してください。</string>
+    <string name="chip_message1_text_view">*申し訳ありませんが、お使いの携帯電話は、現在の測定一切のチップを持っていません。ので、任意のアプリはチップの不存在下でchip.Soを持っていないこれは、お使いの携帯電話でプログラムを介して電流の流れを測定することはできません、我々はケーブルを介して流れる電流の唯一のおおよそのレベルを知らせるUSBおよびAC充電器に基づいて現在の推定します</string>
+    <string name="chip_message2_text_view">*またそれは、予想される充電時間を算出します。その電話彼らは何についての充電時間を期待することはできませんので、チップを持っていないそれらのクライアントを容易にするために追加され、この機能が追加され、それはアンペアメーターapp.itにのみ組み込まれています</string>
+    <string name="chip_message3_text_view">* あなたは、このアプリを使用することで、任意のトラブルに遭遇した場合、電子メールを介して私たちを上お知らせください</string>
+
+
+    <!-- buton-->
+    <string name="ok_buton">[OK]</string>
+
+
+    <!--Main Activity-->
+    <string name="connectd">接続</string>
+    <string name="not_charging">充電していません</string>
+    <string name="defult_plug_type">未知の</string>
+    <string name="AC_plug_type">AC</string>
+    <string name="Usb_plug_type">USB</string>
+    <string name="defult_health_String">未知の</string>
+    <string name="dead_health_String">デッド</string>
+    <string name="good_health_String">良い</string>
+    <string name="over_heat_health_String">過熱</string>
+    <string name="over_voltage_health_String">過電圧</string>
+    <string name="faliur_health_String">失敗</string>
+    <string name="not_charging_status">充電していません</string>
+    <string name="full_status">フル</string>
+    <string name="discharge_status">放電</string>
+
+    <string name="defult_status">未知の</string>
+    <string name="charging_status">充電</string>
+
+
+
+    <string name="hour">時間と </string>
+    <string name="mint"> 分</string>
+
+    <string name="setting_language_main">言語</string>
+    <string name="setting_language_messae">デバイスの言語を無視し、他を使用</string>
+    <string name="more_apps">より多くのアプリケーション</string>
+    <string-array name="language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Japanese</item>
+        <item>Russian</item>
+        <item>English</item>
+        <item>Indonesian</item>
+        <item>Chinese</item>
+        <item>Italian</item>
+
+        <item>Polish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Turkish</item>
+        <item>Korean</item>
+
+        <item>Dutch</item>
+        <item>Greek</item>
+        <item> Norwegian</item>
+        <item>Romainian</item>
+        <item>Thai</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Persian</item>
+        <item>Traditional Chinese</item>
+        <item>Hebrew</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Slovak</item>
+    </string-array>
+    <string name="temperature_heading_setting">温度</string>
+    <string name="temperature_detaile_setting">温度の単位は、摂氏（C）または華氏（F）のいずれかを選択します。</string>
+    <string name="charging_time_heading_setting">チャアリングタイム画面</string>
+    <string name="charging_ime_detaile_setting">充電時間見積もり画面を表示する</string>
+    <string name="Alert_bt_setting">アラート設定</string>
+    <string name="Alert_custom_tv_setting">アラート設定のカスタマイズ</string>
+    <string name="translater_heading_setting">翻訳者</string>
+    <string name="translater_detaile_setting">アプリの翻訳を手伝った人たち。.</string>
+    <string name="alarm_full_battery_heading_setting">バッテリがいっぱいになると警告を表示する</string>
+    <string name="alarm_low_battery_heading_setting">バッテリー残量が少なくなったら警告を表示する</string>
+    <string name="alarm_high_temp_heading_setting">バッテリーの温度が高いときに警告を表示する</string>
+    <string name="Alert_custom_full_battery_tv_setting">バッテリーフルレベル</string>
+    <string name="Alert_custom_low_battery_tv_setting">バッテリー低レベル</string>
+    <string name="Alert_custom__high_custom_tv_setting">バッテリー温度</string>
+    <string name="battery_level_for_notification">バッテリーレベル</string>
+    <string name="Alert_custom__full_level">バッテリーがいっぱいです</string>
+    <string name="Alert_custom__low_level">バッテリーが少ない</string>
+    <string name="Alert_custom__high_temp">バッテリーが熱い</string>
+    <string name="dissconneced">未接続</string>
+    <string name="notification_heading_setting">充電されていない場合は非表示</string>
+    <string name="notification_detaile_setting">課金しない場合は、「最小」優先度メッセージを使用します</string>
+    <string name="permanent_notification_heading_setting">お知らせ</string>
+    <string name="permanent_notification_detaile_setting">永続的メッセージをオン/オフする</string>
+    <string name="toast_hide_notificaion_message">料金に通知が表示されます</string>
+    <!-- new line-->
+    <string name="remove_ads">広告を削除</string>
+    <string name="action_alert_settings">アラート設定</string>
+    <string name="flowingcurrent_text_view">流れる電流</string>
+
+</resources>

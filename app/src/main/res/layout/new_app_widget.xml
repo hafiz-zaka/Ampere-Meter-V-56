@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/appwidget_main_layout"
+    android:layout_height="wrap_content"
+    android:background="@color/layout_background"
+    >
+
+    <TextView
+        android:id="@+id/appwidget_charging_current"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:gravity="center"
+        android:background="@color/layout_inner"
+        android:text="1200 mA"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/appwidget_level"-->
+        <!--android:text="32 c"-->
+        <!--android:textColor="@color/colorPrimary"-->
+        <!--android:textSize="15sp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:id="@+id/appwidget_temperature"-->
+        <!--android:textStyle="bold|italic"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appwidget_level"
+        android:text="2.783V"
+        android:gravity="center"
+
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="8dp"        android:id="@+id/appwidget_voltage"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:gravity="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="92 %"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:id="@+id/appwidget_level"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/appwidget_charging_current"
+        android:layout_alignLeft="@+id/appwidget_voltage"
+        android:layout_alignStart="@+id/appwidget_voltage" />
+
+</RelativeLayout>
