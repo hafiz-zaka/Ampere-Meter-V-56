@@ -106,19 +106,6 @@ public class Admenager {
                         Log.d(TAG, "Native Ad Failed To Load");
                         template.setVisibility(View.GONE);
 
-                        new CountDownTimer(10000, 1000) {
-
-                            @Override
-                            public void onTick(long millisUntilFinished) {
-                                Log.d(TAG, "Sec : " + millisUntilFinished / 1000);
-                            }
-
-                            @Override
-                            public void onFinish() {
-                                Log.d(TAG, "Reloading Native Ad");
-                                loadAd(adID);
-                            }
-                        }.start();
 
                     }
                 })

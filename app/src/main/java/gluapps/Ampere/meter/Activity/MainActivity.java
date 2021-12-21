@@ -490,6 +490,9 @@ RelativeLayout updatesoftwareLL;
         alertServiceReceiver = new AlertServiceReceiver();
         sp = getSharedPreferences("your_prefs", Activity.MODE_PRIVATE);
 
+        editor = sp.edit();
+        editor.putInt("resume_check", 1);
+        editor.apply();
 
 
 

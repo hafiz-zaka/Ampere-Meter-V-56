@@ -3,11 +3,11 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 31
     defaultConfig {
-        applicationId "zaka.com.amperemete"
+        applicationId "zaka.com.amperemeter"
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 56
-        versionName '2.3.6'
+        versionCode 57
+        versionName '2.3.7'
         multiDexEnabled true
 
     }
