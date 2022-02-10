@@ -1,6 +1,7 @@
 package gluapps.Ampere.meter.Activity;
 
-import static com.google.ads.mediation.facebook.FacebookMediationAdapter.TAG;
+
+import static gluapps.Ampere.meter.Activity.MyBilling.TAG;
 
 import android.app.Activity;
 import android.app.AlarmManager;
@@ -598,7 +599,7 @@ if(permanantNotificationCheckValue==1)
 
             @Override
             public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
-                // Handle the error
+                // Handle  the error
                 Log.i(TAG, loadAdError.getMessage());
                 mInterstitialAd = null;
             }

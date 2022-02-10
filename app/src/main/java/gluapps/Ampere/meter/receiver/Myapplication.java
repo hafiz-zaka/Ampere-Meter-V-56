@@ -2,7 +2,9 @@ package gluapps.Ampere.meter.receiver;
 
 import android.app.Activity;
 import android.app.Application;
+import android.content.Context;
 import android.content.SharedPreferences;
+import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -12,6 +14,7 @@ import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleObserver;
 import androidx.lifecycle.OnLifecycleEvent;
 import androidx.lifecycle.ProcessLifecycleOwner;
+import androidx.multidex.MultiDex;
 
 import com.appbrain.AdId;
 import com.appbrain.InterstitialBuilder;
@@ -19,21 +22,11 @@ import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.FullScreenContentCallback;
 import com.google.android.gms.ads.appopen.AppOpenAd;
-import android.app.Activity;
-import android.app.Application;
-import android.content.Context;
-import android.os.Bundle;
-import android.util.Log;
-import android.widget.Toast;
 
-
-import androidx.multidex.MultiDex;
-
-
-import java.util.Date;
 import java.util.Date;
 
 import gluapps.Ampere.meter.R;
+
 
 public class Myapplication extends Application implements LifecycleObserver, Application.ActivityLifecycleCallbacks {
 boolean check =true;
@@ -64,6 +57,8 @@ boolean check =true;
         ProcessLifecycleOwner.get().getLifecycle().addObserver(this);
         registerActivityLifecycleCallbacks(this);
         fetchAd();
+        Toast.makeText(this,"* Necessário Acesso a Internet *"+resume_check,Toast.LENGTH_LONG).show();
+
     }
     @Override
     protected void attachBaseContext(Context base) {
@@ -76,15 +71,9 @@ boolean check =true;
         resume_check = sp.getInt("resume_check", 0);
 
         myIntValue = sp.getInt("ad_value", 5);
-        if (myIntValue == 10) {
-            check_admob = false;
-
-        } else {
-            check_admob =true;
-        }
+        check_admob = myIntValue != 10;
         if(resume_check==1&check_admob){
             showAdIfAvailable();
-          //  Toast.makeText(this,"* Necessário Acesso a Internet *"+resume_check,Toast.LENGTH_LONG).show();
 
         }
 
@@ -182,6 +171,7 @@ boolean check =true;
                                 isShowingAd = true;
                             }
                         };
+                appOpenAdmain.setFullScreenContentCallback(fullScreenContentCallback);
 
                 appOpenAdmain.show(currentActivity);
 

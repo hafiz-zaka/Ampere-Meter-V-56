@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.ads.mediation:ironsource:7.1.13.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f66f498424c4fd22923028f5bff96f9c/transformed/jetified-ironsource-7.1.13.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f66f498424c4fd22923028f5bff96f9c/transformed/jetified-ironsource-7.1.13.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f66f498424c4fd22923028f5bff96f9c/transformed/jetified-ironsource-7.1.13.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f66f498424c4fd22923028f5bff96f9c/transformed/jetified-ironsource-7.1.13.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.ads.mediation/ironsource/7.1.13.0/6c633c821af0ec816284ea652da12d4ee1c85157/ironsource-7.1.13.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

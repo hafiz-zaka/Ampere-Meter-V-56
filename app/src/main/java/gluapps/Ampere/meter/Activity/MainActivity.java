@@ -599,7 +599,7 @@ RelativeLayout updatesoftwareLL;
         updatesoftwareLL.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/developer?id=Smart+Hurricanes")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/dev?id=6016563769984552072")));
 
             }
         });
